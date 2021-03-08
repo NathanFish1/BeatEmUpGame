@@ -4432,7 +4432,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.7942
+        "zoomFactor": 0.6442
       },
       "objectsGroups": [
         {
@@ -4606,8 +4606,8 @@
           "name": "Art2",
           "persistentUuid": "c03dad74-9e4e-4f64-a6b1-aab155c2e014",
           "width": 64,
-          "x": 1243,
-          "y": 446,
+          "x": 11,
+          "y": 447,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -4729,7 +4729,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "GUI",
           "locked": false,
           "name": "DeathNote",
           "persistentUuid": "0481c00f-d4a4-4051-bb06-a1fab345ca0a",
@@ -4737,38 +4737,6 @@
           "x": 355,
           "y": 276,
           "zOrder": 26,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 278,
-          "layer": "",
-          "locked": false,
-          "name": "Art2",
-          "persistentUuid": "ee7cf04a-9aad-477e-8109-d5ef6db31604",
-          "width": 64,
-          "x": -921.212,
-          "y": 407.416,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 278,
-          "layer": "",
-          "locked": false,
-          "name": "Art2",
-          "persistentUuid": "c930d3e8-7e9b-449e-8d6d-ffc4dbe70a74",
-          "width": 64,
-          "x": 11,
-          "y": 447,
-          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
