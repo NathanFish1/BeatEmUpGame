@@ -1067,7 +1067,7 @@ gdjs.Scene1Code.condition0IsTrue_1.val = false;
 gdjs.Scene1Code.condition1IsTrue_1.val = false;
 {
 for(var i = 0, k = 0, l = gdjs.Scene1Code.GDCamObjects1.length;i<l;++i) {
-    if ( gdjs.Scene1Code.GDCamObjects1[i].getX() > 650 ) {
+    if ( gdjs.Scene1Code.GDCamObjects1[i].getX() > 672 ) {
         gdjs.Scene1Code.condition0IsTrue_1.val = true;
         gdjs.Scene1Code.GDCamObjects1[k] = gdjs.Scene1Code.GDCamObjects1[i];
         ++k;
