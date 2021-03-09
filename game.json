@@ -99,64 +99,10 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "PlayerBase-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "PlayerBase-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "YBoundary-1.png",
         "kind": "image",
         "metadata": "",
         "name": "YBoundary-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Player-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Player-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewFile-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewFile-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Player-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Player-1-0.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -207,357 +153,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Warrior_Run_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Run_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Run_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Run_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Run_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Run_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Run_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Run_4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Run_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Run_5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Run_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Run_6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Run_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Run_7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Run_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Run_8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Jump_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Jump_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Jump_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Jump_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Jump_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Jump_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_9.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_11.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Attack_12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Attack_12.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Assets/Warrior-V1.3/Warrior/Individual Sprite/idle/Warrior_Idle_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Assets\\Warrior-V1.3\\Warrior\\Individual Sprite\\idle\\Warrior_Idle_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Idle_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Idle_2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Idle_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Idle_3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Idle_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Idle_4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Idle_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Idle_5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Idle_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Idle_6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject2-1-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-1 - Copy.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-1 - Copy.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject3-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject3-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Assets/Warrior-V1.3/Warrior/Individual Sprite/idle/Idle-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Assets\\Warrior-V1.3\\Warrior\\Individual Sprite\\idle\\Idle-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Assets/Warrior-V1.3/Warrior/Individual Sprite/idle/Idle-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Assets\\Warrior-V1.3\\Warrior\\Individual Sprite\\idle\\Idle-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Assets/Warrior-V1.3/Warrior/Individual Sprite/idle/Idle-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Assets\\Warrior-V1.3\\Warrior\\Individual Sprite\\idle\\Idle-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Assets/Warrior-V1.3/Warrior/Individual Sprite/idle/Idle-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Assets\\Warrior-V1.3\\Warrior\\Individual Sprite\\idle\\Idle-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Assets/Warrior-V1.3/Warrior/Individual Sprite/idle/Idle-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Assets\\Warrior-V1.3\\Warrior\\Individual Sprite\\idle\\Idle-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../Assets/Warrior-V1.3/Warrior/Individual Sprite/idle/Idle-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\Assets\\Warrior-V1.3\\Warrior\\Individual Sprite\\idle\\Idle-6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Jump-1.png",
         "kind": "image",
         "metadata": "",
@@ -580,33 +175,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Jump-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Fall_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Fall_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Fall_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Fall_2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Fall_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Fall_3.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -873,672 +441,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Enemy1-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-9.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-11.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-12.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-13.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-14.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-15.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-16.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-16.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-17.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-18.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-9.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-11.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-12.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-12.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Idle-13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Idle-13.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-5-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-5-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-6-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-6-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-7-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-7-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-8-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-8-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-9-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-9-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-10-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-10-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-11-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-11-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-12-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-12-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-13-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-13-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-1-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-1-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-5-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-5-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-6-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-6-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-7-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-7-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-8-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-8-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-9-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-9-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-10-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-10-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-11-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-11-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-1-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-1-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-2-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-2-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-3-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-3-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-4-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-4-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-5-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-5-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-6-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-6-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-7-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-7-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-8-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-8-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-9-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-9-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-10-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-10-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-11-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-11-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-12-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-12-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-13-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-13-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-14-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-14-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-15-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-15-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-16-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-16-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-17-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-17-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-18-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-18-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-1-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-2-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-2-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-3-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-3-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-4-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-4-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-1-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-2-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-3-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-3-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-4-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-4-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Enemy1-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Enemy1-8.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Enemy2-1.png",
         "kind": "image",
         "metadata": "",
@@ -1647,42 +549,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Hit-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Hit-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Hit-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Hit-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Hit-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Hit-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Hit-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Hit-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Death-1.png",
         "kind": "image",
         "metadata": "",
@@ -1714,87 +580,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Death-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject3-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject3-1-0.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Goblin-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Goblin-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Goblin-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Goblin-2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Goblin-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Goblin-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Goblin-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Goblin-4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Goblin-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Goblin-5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Goblin-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Goblin-6.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Goblin-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Goblin-7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Goblin-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Goblin-8.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -1869,249 +654,6 @@
         "name": "Goblin-8-0.png",
         "smoothed": true,
         "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "EnemyAttack2-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "EnemyAttack2-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "EnemyAttack2-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "EnemyAttack2-2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "EnemyAttack2-3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "EnemyAttack2-3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "EnemyAttack2-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "EnemyAttack2-4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "EnemyAttack2-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "EnemyAttack2-5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "EnemyAttack2-6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "EnemyAttack2-6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "EnemyAttack2-7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "EnemyAttack2-7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "EnemyAttack2-8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "EnemyAttack2-8.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject3-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject3-1-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_4.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_5.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_7.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_8.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_9.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_10.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_Death_11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_Death_11.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Health-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Health-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "HealthBarBase-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "HealthBarBase-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "HealthBarBase-1-0.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "HealthBarBase-1-0.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_hurt_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_hurt_1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_hurt_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_hurt_2.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_hurt_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_hurt_3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Warrior_hurt_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Warrior_hurt_4.png",
-        "smoothed": true,
-        "userAdded": true
       },
       {
         "alwaysLoaded": false,
@@ -2250,28 +792,10 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "NewObject3-1-2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject3-1-2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "NewObject3-1-3.png",
         "kind": "image",
         "metadata": "",
         "name": "NewObject3-1-3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject2-1-4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-4.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -2402,36 +926,6 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "NewObject-1-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject-1-1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "Embossed Black Normal.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "Embossed Black Normal.ttf",
-        "userAdded": false
-      },
-      {
-        "file": "Shadowed Black.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "Shadowed Black.ttf",
-        "userAdded": false
-      },
-      {
-        "file": "Long_Shot.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "Long_Shot.ttf",
-        "userAdded": true
-      },
-      {
         "file": "StarTrebek-7BEmw.ttf",
         "kind": "font",
         "metadata": "",
@@ -2446,15 +940,6 @@
         "name": "NewObject-1-2.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "NewObject2-1-5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "NewObject2-1-5.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -2572,6 +1057,33 @@
         "name": "Hit-12.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HealthBarBase-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HealthBarBase-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Healthy-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Healthy-1-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Damaged-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Damaged-1-3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2648,7 +1160,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.31
+        "zoomFactor": 0.4226
       },
       "objectsGroups": [],
       "variables": [],
@@ -2662,7 +1174,7 @@
           "name": "Background11",
           "persistentUuid": "ca68d875-712e-494e-b735-6a4e6afbdda8",
           "width": 1277,
-          "x": 0,
+          "x": 125,
           "y": -4,
           "zOrder": 1,
           "numberProperties": [],
@@ -2678,7 +1190,7 @@
           "name": "Background10",
           "persistentUuid": "ec8768fe-5e6f-4f93-acc4-db2633b1dff1",
           "width": 1282,
-          "x": 0,
+          "x": 125,
           "y": -376,
           "zOrder": 2,
           "numberProperties": [],
@@ -2694,7 +1206,7 @@
           "name": "Background9",
           "persistentUuid": "fca011ee-c273-49ed-aaa2-12452790e1ef",
           "width": 1279,
-          "x": 1,
+          "x": 125,
           "y": -201,
           "zOrder": 3,
           "numberProperties": [],
@@ -2710,7 +1222,7 @@
           "name": "Background8",
           "persistentUuid": "9cb1018c-1a34-43cb-b0f0-2c1b2aece826",
           "width": 1281,
-          "x": 0,
+          "x": 125,
           "y": -134,
           "zOrder": 4,
           "numberProperties": [],
@@ -2726,7 +1238,7 @@
           "name": "Background7",
           "persistentUuid": "b7bb0a2c-e7b4-489c-828b-56b15ce71862",
           "width": 1278,
-          "x": 4,
+          "x": 125,
           "y": -186,
           "zOrder": 5,
           "numberProperties": [],
@@ -2742,7 +1254,7 @@
           "name": "Background6",
           "persistentUuid": "2a664721-5428-4b60-a8de-206f139e971c",
           "width": 1278,
-          "x": 0,
+          "x": 125,
           "y": -187,
           "zOrder": 6,
           "numberProperties": [],
@@ -2758,7 +1270,7 @@
           "name": "Background5",
           "persistentUuid": "84edde2f-df88-41dd-9107-f757eb83c36d",
           "width": 1282,
-          "x": 4,
+          "x": 125,
           "y": -135,
           "zOrder": 7,
           "numberProperties": [],
@@ -2774,7 +1286,7 @@
           "name": "Background4",
           "persistentUuid": "df431fc4-eeb9-4391-8b7a-e3662f8ef671",
           "width": 1318,
-          "x": -48,
+          "x": 75,
           "y": -185,
           "zOrder": 8,
           "numberProperties": [],
@@ -2790,7 +1302,7 @@
           "name": "Background3",
           "persistentUuid": "a4e2a0f9-b481-48aa-9a19-e5767f24a009",
           "width": 1290,
-          "x": -4,
+          "x": 125,
           "y": -240,
           "zOrder": 9,
           "numberProperties": [],
@@ -2806,7 +1318,7 @@
           "name": "Background2",
           "persistentUuid": "f3eff7e5-9c08-4c7d-a9ab-97189d498aea",
           "width": 1288,
-          "x": -1,
+          "x": 125,
           "y": -185,
           "zOrder": 10,
           "numberProperties": [],
@@ -2822,7 +1334,7 @@
           "name": "Background1",
           "persistentUuid": "c8c86a11-fb5c-4165-b751-7f4a0017284a",
           "width": 1282,
-          "x": 0,
+          "x": 125,
           "y": -671,
           "zOrder": 11,
           "numberProperties": [],
@@ -2837,8 +1349,8 @@
           "locked": true,
           "name": "BackgroundGround",
           "persistentUuid": "106f85bf-6256-496e-8da9-f5feb3b81cb9",
-          "width": 1280,
-          "x": 0,
+          "width": 1380,
+          "x": 125,
           "y": 640,
           "zOrder": 12,
           "numberProperties": [],
@@ -2854,7 +1366,7 @@
           "name": "SelectionWhite",
           "persistentUuid": "f02e1a19-5794-42e7-a05f-cb00c90eab80",
           "width": 809,
-          "x": 220,
+          "x": 345,
           "y": -46,
           "zOrder": 13,
           "numberProperties": [],
@@ -2870,7 +1382,7 @@
           "name": "Start",
           "persistentUuid": "d34f9b74-3b04-41df-af69-61f540fae6e1",
           "width": 83,
-          "x": 584,
+          "x": 709,
           "y": 282,
           "zOrder": 14,
           "numberProperties": [],
@@ -2886,7 +1398,7 @@
           "name": "HowToPlay",
           "persistentUuid": "f4502f55-1cd6-4f8d-abc7-385774285c09",
           "width": 0,
-          "x": 541,
+          "x": 665,
           "y": 352,
           "zOrder": 15,
           "numberProperties": [],
@@ -2907,7 +1419,7 @@
           "name": "Leaderboard",
           "persistentUuid": "6be486c2-91f7-490c-9cb9-9d3435ea8124",
           "width": 0,
-          "x": 535,
+          "x": 660,
           "y": 422,
           "zOrder": 16,
           "numberProperties": [],
@@ -2923,7 +1435,7 @@
           "name": "Title",
           "persistentUuid": "e50b576a-bcab-411d-8b0d-98174f67693d",
           "width": 0,
-          "x": 550,
+          "x": 675,
           "y": 203,
           "zOrder": 17,
           "numberProperties": [],
@@ -2939,7 +1451,7 @@
           "name": "PlayerControl",
           "persistentUuid": "c1e1c9d2-6a4d-4e35-8a49-d158b4f4bec9",
           "width": 0,
-          "x": 175,
+          "x": 300,
           "y": 91,
           "zOrder": 18,
           "numberProperties": [],
@@ -2955,7 +1467,7 @@
           "name": "Objectives",
           "persistentUuid": "0638cc0b-28b1-4270-b7fb-f5079b244476",
           "width": 0,
-          "x": 936,
+          "x": 1061,
           "y": 91,
           "zOrder": 19,
           "numberProperties": [],
@@ -2971,7 +1483,7 @@
           "name": "PlayerConText",
           "persistentUuid": "18028d51-0962-4c32-b59b-46b72bcbabc9",
           "width": 414,
-          "x": 53,
+          "x": 178,
           "y": 152,
           "zOrder": 20,
           "numberProperties": [],
@@ -2987,7 +1499,7 @@
           "name": "ObjectiveText",
           "persistentUuid": "f3ca8efa-1944-437e-ae6f-73742708786e",
           "width": 405,
-          "x": 823,
+          "x": 948,
           "y": 152,
           "zOrder": 21,
           "numberProperties": [],
@@ -3686,7 +2198,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Scene Set Up",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4373,7 +2885,7 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 8377656,
           "ambientLightColorR": 3,
           "followBaseLayerCamera": false,
@@ -4432,7 +2944,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.7942
+        "zoomFactor": 0.4042
       },
       "objectsGroups": [
         {
@@ -4631,38 +3143,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "GUI",
-          "locked": false,
-          "name": "HealthBarBase",
-          "persistentUuid": "7b501af3-b038-4e21-8f82-31769569b32d",
-          "width": 77,
-          "x": 5,
-          "y": -12,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 37,
-          "layer": "GUI",
-          "locked": false,
-          "name": "Health",
-          "persistentUuid": "01c41273-91a7-49d2-b617-3840583146de",
-          "width": 69,
-          "x": 10,
-          "y": 3,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -4705,22 +3185,6 @@
           "x": 2542,
           "y": 646,
           "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "GUI",
-          "locked": false,
-          "name": "Score",
-          "persistentUuid": "0c617925-d6ac-4506-b162-b58485125fb5",
-          "width": 150,
-          "x": 5,
-          "y": 40,
-          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6903,7 +5367,7 @@
           "variables": [],
           "behaviors": [],
           "string": "0",
-          "font": "",
+          "font": "StarTrebek-7BEmw.ttf",
           "characterSize": 30,
           "color": {
             "b": 39,
@@ -9226,7 +7690,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "HealthBarBase-1-0.png",
+                      "image": "HealthBarBase-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9265,7 +7729,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject3-1.png",
+                      "image": "Healthy-1-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9294,7 +7758,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Health-1.png",
+                      "image": "Damaged-1-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9575,7 +8039,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Scene Set Up",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10096,7 +8560,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Player Set Up",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -10177,6 +8641,48 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "HealthBarBase",
+                        "20",
+                        "0",
+                        "\"GUI\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Health",
+                        "26",
+                        "22",
+                        "\"GUI\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Score",
+                        "30",
+                        "70",
+                        "\"GUI\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "Cache"
                       },
                       "parameters": [
@@ -10214,9 +8720,9 @@
                         "value": "ChangeWidth"
                       },
                       "parameters": [
-                        "Health",
+                        "HealthBarBase",
                         "=",
-                        "Player.Health::Health()"
+                        "Player.Health::Health() + 10"
                       ],
                       "subInstructions": []
                     },
@@ -10226,9 +8732,45 @@
                         "value": "ChangeWidth"
                       },
                       "parameters": [
+                        "Health",
+                        "=",
+                        "Player.Health::Health()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
                         "HealthBarBase",
                         "=",
-                        "Player.Health::Health() + 10"
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Score",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Health",
+                        "=",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -11372,6 +9914,14 @@
                         "9"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -11383,8 +9933,8 @@
                       "parameters": [
                         "Player",
                         "EnemiesClose",
-                        "=",
-                        "Count(EnemyHitBox)"
+                        "+",
+                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -14136,6 +12686,17 @@
           "visibility": true,
           "cameras": [],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 1702453580,
+          "ambientLightColorG": 10454928,
+          "ambientLightColorR": 1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "Background",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -14199,8 +12760,8 @@
           "name": "DeathMessage",
           "persistentUuid": "5f092cd2-bb5c-449c-a0a7-2b73e9593dee",
           "width": 760,
-          "x": 264,
-          "y": 268,
+          "x": 436,
+          "y": 289,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -14215,8 +12776,8 @@
           "name": "Note",
           "persistentUuid": "3702d4a8-d388-4657-8843-9e26102e4437",
           "width": 0,
-          "x": 517,
-          "y": 580,
+          "x": 668,
+          "y": 571,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],

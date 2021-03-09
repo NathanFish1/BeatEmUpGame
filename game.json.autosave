@@ -2052,15 +2052,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Health-1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Health-1.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "HealthBarBase-1.png",
         "kind": "image",
         "metadata": "",
@@ -2572,6 +2563,123 @@
         "name": "Hit-12.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HealthBarBase-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HealthBarBase-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Health-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Health-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Healthy-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Healthy-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Healthy-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Healthy-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Damaged-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Damaged-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Healthy-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Healthy-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Damaged-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Damaged-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Healthy-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Healthy-1-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Damaged-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Damaged-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Healthy-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Healthy-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Damaged-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Damaged-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Healthy-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Healthy-1-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Damaged-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Damaged-1-3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2648,7 +2756,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.31
+        "zoomFactor": 0.4226
       },
       "objectsGroups": [],
       "variables": [],
@@ -2662,7 +2770,7 @@
           "name": "Background11",
           "persistentUuid": "ca68d875-712e-494e-b735-6a4e6afbdda8",
           "width": 1277,
-          "x": 0,
+          "x": 125,
           "y": -4,
           "zOrder": 1,
           "numberProperties": [],
@@ -2678,7 +2786,7 @@
           "name": "Background10",
           "persistentUuid": "ec8768fe-5e6f-4f93-acc4-db2633b1dff1",
           "width": 1282,
-          "x": 0,
+          "x": 125,
           "y": -376,
           "zOrder": 2,
           "numberProperties": [],
@@ -2694,7 +2802,7 @@
           "name": "Background9",
           "persistentUuid": "fca011ee-c273-49ed-aaa2-12452790e1ef",
           "width": 1279,
-          "x": 1,
+          "x": 125,
           "y": -201,
           "zOrder": 3,
           "numberProperties": [],
@@ -2710,7 +2818,7 @@
           "name": "Background8",
           "persistentUuid": "9cb1018c-1a34-43cb-b0f0-2c1b2aece826",
           "width": 1281,
-          "x": 0,
+          "x": 125,
           "y": -134,
           "zOrder": 4,
           "numberProperties": [],
@@ -2726,7 +2834,7 @@
           "name": "Background7",
           "persistentUuid": "b7bb0a2c-e7b4-489c-828b-56b15ce71862",
           "width": 1278,
-          "x": 4,
+          "x": 125,
           "y": -186,
           "zOrder": 5,
           "numberProperties": [],
@@ -2742,7 +2850,7 @@
           "name": "Background6",
           "persistentUuid": "2a664721-5428-4b60-a8de-206f139e971c",
           "width": 1278,
-          "x": 0,
+          "x": 125,
           "y": -187,
           "zOrder": 6,
           "numberProperties": [],
@@ -2758,7 +2866,7 @@
           "name": "Background5",
           "persistentUuid": "84edde2f-df88-41dd-9107-f757eb83c36d",
           "width": 1282,
-          "x": 4,
+          "x": 125,
           "y": -135,
           "zOrder": 7,
           "numberProperties": [],
@@ -2774,7 +2882,7 @@
           "name": "Background4",
           "persistentUuid": "df431fc4-eeb9-4391-8b7a-e3662f8ef671",
           "width": 1318,
-          "x": -48,
+          "x": 75,
           "y": -185,
           "zOrder": 8,
           "numberProperties": [],
@@ -2790,7 +2898,7 @@
           "name": "Background3",
           "persistentUuid": "a4e2a0f9-b481-48aa-9a19-e5767f24a009",
           "width": 1290,
-          "x": -4,
+          "x": 125,
           "y": -240,
           "zOrder": 9,
           "numberProperties": [],
@@ -2806,7 +2914,7 @@
           "name": "Background2",
           "persistentUuid": "f3eff7e5-9c08-4c7d-a9ab-97189d498aea",
           "width": 1288,
-          "x": -1,
+          "x": 125,
           "y": -185,
           "zOrder": 10,
           "numberProperties": [],
@@ -2822,7 +2930,7 @@
           "name": "Background1",
           "persistentUuid": "c8c86a11-fb5c-4165-b751-7f4a0017284a",
           "width": 1282,
-          "x": 0,
+          "x": 125,
           "y": -671,
           "zOrder": 11,
           "numberProperties": [],
@@ -2837,8 +2945,8 @@
           "locked": true,
           "name": "BackgroundGround",
           "persistentUuid": "106f85bf-6256-496e-8da9-f5feb3b81cb9",
-          "width": 1280,
-          "x": 0,
+          "width": 1380,
+          "x": 125,
           "y": 640,
           "zOrder": 12,
           "numberProperties": [],
@@ -2854,7 +2962,7 @@
           "name": "SelectionWhite",
           "persistentUuid": "f02e1a19-5794-42e7-a05f-cb00c90eab80",
           "width": 809,
-          "x": 220,
+          "x": 345,
           "y": -46,
           "zOrder": 13,
           "numberProperties": [],
@@ -2870,7 +2978,7 @@
           "name": "Start",
           "persistentUuid": "d34f9b74-3b04-41df-af69-61f540fae6e1",
           "width": 83,
-          "x": 584,
+          "x": 709,
           "y": 282,
           "zOrder": 14,
           "numberProperties": [],
@@ -2886,7 +2994,7 @@
           "name": "HowToPlay",
           "persistentUuid": "f4502f55-1cd6-4f8d-abc7-385774285c09",
           "width": 0,
-          "x": 541,
+          "x": 665,
           "y": 352,
           "zOrder": 15,
           "numberProperties": [],
@@ -2907,7 +3015,7 @@
           "name": "Leaderboard",
           "persistentUuid": "6be486c2-91f7-490c-9cb9-9d3435ea8124",
           "width": 0,
-          "x": 535,
+          "x": 660,
           "y": 422,
           "zOrder": 16,
           "numberProperties": [],
@@ -2923,7 +3031,7 @@
           "name": "Title",
           "persistentUuid": "e50b576a-bcab-411d-8b0d-98174f67693d",
           "width": 0,
-          "x": 550,
+          "x": 675,
           "y": 203,
           "zOrder": 17,
           "numberProperties": [],
@@ -2939,7 +3047,7 @@
           "name": "PlayerControl",
           "persistentUuid": "c1e1c9d2-6a4d-4e35-8a49-d158b4f4bec9",
           "width": 0,
-          "x": 175,
+          "x": 300,
           "y": 91,
           "zOrder": 18,
           "numberProperties": [],
@@ -2955,7 +3063,7 @@
           "name": "Objectives",
           "persistentUuid": "0638cc0b-28b1-4270-b7fb-f5079b244476",
           "width": 0,
-          "x": 936,
+          "x": 1061,
           "y": 91,
           "zOrder": 19,
           "numberProperties": [],
@@ -2971,7 +3079,7 @@
           "name": "PlayerConText",
           "persistentUuid": "18028d51-0962-4c32-b59b-46b72bcbabc9",
           "width": 414,
-          "x": 53,
+          "x": 178,
           "y": 152,
           "zOrder": 20,
           "numberProperties": [],
@@ -2987,7 +3095,7 @@
           "name": "ObjectiveText",
           "persistentUuid": "f3ca8efa-1944-437e-ae6f-73742708786e",
           "width": 405,
-          "x": 823,
+          "x": 948,
           "y": 152,
           "zOrder": 21,
           "numberProperties": [],
@@ -3686,7 +3794,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Scene Set Up",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4373,7 +4481,7 @@
       ],
       "layers": [
         {
-          "ambientLightColorB": 1702453580,
+          "ambientLightColorB": 1702453632,
           "ambientLightColorG": 8377656,
           "ambientLightColorR": 3,
           "followBaseLayerCamera": false,
@@ -4432,7 +4540,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.6442
+        "zoomFactor": 0.6742
       },
       "objectsGroups": [
         {
@@ -4606,8 +4714,8 @@
           "name": "Art2",
           "persistentUuid": "c03dad74-9e4e-4f64-a6b1-aab155c2e014",
           "width": 64,
-          "x": 11,
-          "y": 447,
+          "x": 1243,
+          "y": 446,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -4625,38 +4733,6 @@
           "x": 1381,
           "y": 561,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 64,
-          "layer": "GUI",
-          "locked": false,
-          "name": "HealthBarBase",
-          "persistentUuid": "7b501af3-b038-4e21-8f82-31769569b32d",
-          "width": 77,
-          "x": 5,
-          "y": -12,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 37,
-          "layer": "GUI",
-          "locked": false,
-          "name": "Health",
-          "persistentUuid": "01c41273-91a7-49d2-b617-3840583146de",
-          "width": 69,
-          "x": 10,
-          "y": 3,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4711,25 +4787,9 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 57,
-          "layer": "GUI",
-          "locked": false,
-          "name": "Score",
-          "persistentUuid": "0c617925-d6ac-4506-b162-b58485125fb5",
-          "width": 150,
-          "x": 5,
-          "y": 40,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "GUI",
+          "layer": "",
           "locked": false,
           "name": "DeathNote",
           "persistentUuid": "0481c00f-d4a4-4051-bb06-a1fab345ca0a",
@@ -4737,6 +4797,38 @@
           "x": 355,
           "y": 276,
           "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 278,
+          "layer": "",
+          "locked": false,
+          "name": "Art2",
+          "persistentUuid": "ee7cf04a-9aad-477e-8109-d5ef6db31604",
+          "width": 64,
+          "x": -921.212,
+          "y": 407.416,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 278,
+          "layer": "",
+          "locked": false,
+          "name": "Art2",
+          "persistentUuid": "c930d3e8-7e9b-449e-8d6d-ffc4dbe70a74",
+          "width": 64,
+          "x": 11,
+          "y": 447,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6871,7 +6963,7 @@
           "variables": [],
           "behaviors": [],
           "string": "0",
-          "font": "",
+          "font": "StarTrebek-7BEmw.ttf",
           "characterSize": 30,
           "color": {
             "b": 39,
@@ -9194,7 +9286,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "HealthBarBase-1-0.png",
+                      "image": "HealthBarBase-1-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9233,7 +9325,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject3-1.png",
+                      "image": "Healthy-1-4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9262,7 +9354,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Health-1.png",
+                      "image": "Damaged-1-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10064,7 +10156,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Player Set Up",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -10145,6 +10237,48 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "HealthBarBase",
+                        "20",
+                        "0",
+                        "\"GUI\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Health",
+                        "26",
+                        "22",
+                        "\"GUI\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Score",
+                        "30",
+                        "70",
+                        "\"GUI\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "Cache"
                       },
                       "parameters": [
@@ -10182,9 +10316,9 @@
                         "value": "ChangeWidth"
                       },
                       "parameters": [
-                        "Health",
+                        "HealthBarBase",
                         "=",
-                        "Player.Health::Health()"
+                        "Player.Health::Health() + 10"
                       ],
                       "subInstructions": []
                     },
@@ -10194,9 +10328,45 @@
                         "value": "ChangeWidth"
                       },
                       "parameters": [
+                        "Health",
+                        "=",
+                        "Player.Health::Health()"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
                         "HealthBarBase",
                         "=",
-                        "Player.Health::Health() + 10"
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Score",
+                        "=",
+                        "2"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "Health",
+                        "=",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -11340,6 +11510,14 @@
                         "9"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -11351,8 +11529,8 @@
                       "parameters": [
                         "Player",
                         "EnemiesClose",
-                        "=",
-                        "Count(EnemyHitBox)"
+                        "+",
+                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -14167,8 +14345,8 @@
           "name": "DeathMessage",
           "persistentUuid": "5f092cd2-bb5c-449c-a0a7-2b73e9593dee",
           "width": 760,
-          "x": 264,
-          "y": 268,
+          "x": 436,
+          "y": 289,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -14183,8 +14361,8 @@
           "name": "Note",
           "persistentUuid": "3702d4a8-d388-4657-8843-9e26102e4437",
           "width": 0,
-          "x": 517,
-          "y": 580,
+          "x": 668,
+          "y": 571,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
