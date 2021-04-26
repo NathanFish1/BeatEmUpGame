@@ -8884,17 +8884,17 @@
     {
       "name": "MusicVolume",
       "type": "string",
-      "value": "50"
+      "value": "20"
     },
     {
       "name": "SFXVolume",
       "type": "string",
-      "value": "50"
+      "value": "20"
     },
     {
       "name": "DialogueVolume",
       "type": "string",
-      "value": "50"
+      "value": "20"
     }
   ],
   "layouts": [
@@ -12459,9 +12459,9 @@
           "locked": false,
           "name": "RightBorder",
           "persistentUuid": "9a891ed0-cd9c-4c88-bfa4-719d39b9a7e2",
-          "width": 95,
-          "x": 3045,
-          "y": 337,
+          "width": 482,
+          "x": 2922,
+          "y": 334,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -12470,14 +12470,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 67,
+          "height": 257,
           "layer": "",
           "locked": false,
           "name": "TopBorder",
           "persistentUuid": "fd156598-5653-4b9f-b4c5-e8b6be7870ae",
           "width": 3053,
           "x": 31,
-          "y": 298,
+          "y": 158,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -12491,8 +12491,8 @@
           "locked": false,
           "name": "LeftBorder",
           "persistentUuid": "9d29a1f9-a674-4c73-9773-df3c7f73ee94",
-          "width": 64,
-          "x": -2,
+          "width": 565,
+          "x": -335,
           "y": 346,
           "zOrder": 100,
           "numberProperties": [],
@@ -12502,14 +12502,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 64,
+          "height": 212,
           "layer": "",
           "locked": false,
           "name": "BottomBorder",
           "persistentUuid": "4e014ac7-8fb5-4bab-9e45-fa83dafa2a21",
           "width": 3055,
           "x": 37,
-          "y": 691,
+          "y": 641,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -20017,7 +20017,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25843,7 +25843,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Wizard",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26602,7 +26602,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -27441,7 +27441,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "States",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -27614,7 +27614,7 @@
                       "parameters": [
                         "Player",
                         ">",
-                        "Wizard.ZOrder() - 15"
+                        "Wizard.ZOrder() - 20"
                       ],
                       "subInstructions": []
                     },
@@ -27626,7 +27626,7 @@
                       "parameters": [
                         "Player",
                         "<",
-                        "Wizard.ZOrder() + 15"
+                        "Wizard.ZOrder() + 20"
                       ],
                       "subInstructions": []
                     },

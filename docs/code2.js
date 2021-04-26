@@ -6238,7 +6238,7 @@ for(var i = 0, k = 0, l = gdjs.BattleCode.GDPlayerObjects2.length;i<l;++i) {
 gdjs.BattleCode.GDPlayerObjects2.length = k;}if ( gdjs.BattleCode.condition5IsTrue_0.val ) {
 {
 for(var i = 0, k = 0, l = gdjs.BattleCode.GDPlayerObjects2.length;i<l;++i) {
-    if ( gdjs.BattleCode.GDPlayerObjects2[i].getZOrder() > (( gdjs.BattleCode.GDWizardObjects2.length === 0 ) ? 0 :gdjs.BattleCode.GDWizardObjects2[0].getZOrder()) - 15 ) {
+    if ( gdjs.BattleCode.GDPlayerObjects2[i].getZOrder() > (( gdjs.BattleCode.GDWizardObjects2.length === 0 ) ? 0 :gdjs.BattleCode.GDWizardObjects2[0].getZOrder()) - 20 ) {
         gdjs.BattleCode.condition6IsTrue_0.val = true;
         gdjs.BattleCode.GDPlayerObjects2[k] = gdjs.BattleCode.GDPlayerObjects2[i];
         ++k;
@@ -6247,7 +6247,7 @@ for(var i = 0, k = 0, l = gdjs.BattleCode.GDPlayerObjects2.length;i<l;++i) {
 gdjs.BattleCode.GDPlayerObjects2.length = k;}if ( gdjs.BattleCode.condition6IsTrue_0.val ) {
 {
 for(var i = 0, k = 0, l = gdjs.BattleCode.GDPlayerObjects2.length;i<l;++i) {
-    if ( gdjs.BattleCode.GDPlayerObjects2[i].getZOrder() < (( gdjs.BattleCode.GDWizardObjects2.length === 0 ) ? 0 :gdjs.BattleCode.GDWizardObjects2[0].getZOrder()) + 15 ) {
+    if ( gdjs.BattleCode.GDPlayerObjects2[i].getZOrder() < (( gdjs.BattleCode.GDWizardObjects2.length === 0 ) ? 0 :gdjs.BattleCode.GDWizardObjects2[0].getZOrder()) + 20 ) {
         gdjs.BattleCode.condition7IsTrue_0.val = true;
         gdjs.BattleCode.GDPlayerObjects2[k] = gdjs.BattleCode.GDPlayerObjects2[i];
         ++k;
