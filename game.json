@@ -12374,7 +12374,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.5460000000000009
+        "zoomFactor": 0.5553927831053741
       },
       "objectsGroups": [],
       "variables": [
@@ -12847,6 +12847,22 @@
           "x": 531,
           "y": 287,
           "zOrder": 109,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Fireball",
+          "persistentUuid": "accbdf24-f02f-4c72-bde6-973783e6190c",
+          "width": 0,
+          "x": 3612,
+          "y": 522,
+          "zOrder": 110,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16964,7 +16980,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-1.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "FireballLight",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17000,7 +17022,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-2.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17036,7 +17064,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-3.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17072,7 +17106,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-4.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17108,7 +17148,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-5.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17144,7 +17190,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-6.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17180,7 +17232,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-7.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17216,7 +17274,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-8.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17252,7 +17316,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-9.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17288,7 +17358,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-10.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17324,7 +17400,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-11.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17360,7 +17442,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-12.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17396,7 +17484,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-13.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17432,7 +17526,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-14.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17468,7 +17568,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-15.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17504,7 +17610,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-16.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17540,7 +17652,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-17.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17576,7 +17694,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-18.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17612,7 +17736,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-19.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17648,7 +17778,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-20.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17684,7 +17820,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-21.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17720,7 +17862,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-22.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17756,7 +17904,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-23.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17792,7 +17946,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-24.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17828,7 +17988,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-25.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17864,7 +18030,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-26.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17900,7 +18072,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-27.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17936,7 +18114,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-28.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -17972,7 +18156,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-29.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18008,7 +18198,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-30.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18044,7 +18240,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-31.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18080,7 +18282,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-32.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18116,7 +18324,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-33.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18152,7 +18366,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-34.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18188,7 +18408,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-35.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18224,7 +18450,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-36.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18260,7 +18492,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-37.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18296,7 +18534,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-38.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18332,7 +18576,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-39.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18368,7 +18618,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-40.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18404,7 +18660,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-41.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18440,7 +18702,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-42.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18476,7 +18744,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-43.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18512,7 +18786,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-44.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18548,7 +18828,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-45.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18584,7 +18870,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-46.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18620,7 +18912,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-47.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18656,7 +18954,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-48.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18692,7 +18996,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-49.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18728,7 +19038,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-50.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18764,7 +19080,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-51.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18800,7 +19122,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-52.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18836,7 +19164,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-53.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18872,7 +19206,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-54.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18908,7 +19248,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-55.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18944,7 +19290,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-56.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -18980,7 +19332,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-57.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -19016,7 +19374,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-58.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -19052,7 +19416,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-59.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -19088,7 +19458,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Flying-60.png",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 8.590631484985352,
+                          "y": 6.984050750732422
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 33.935489654541016,
@@ -19303,6 +19679,19 @@
               ]
             }
           ]
+        },
+        {
+          "name": "FireballLight",
+          "tags": "",
+          "type": "Lighting::LightObject",
+          "variables": [],
+          "behaviors": [],
+          "content": {
+            "radius": 35,
+            "color": "#f1ee9d",
+            "debugMode": false,
+            "texture": ""
+          }
         }
       ],
       "events": [
@@ -26633,7 +27022,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -27462,6 +27851,48 @@
                     }
                   ],
                   "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "AttackNotification",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "AttackNotification",
+                        "Wizard"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
               ],
               "parameters": []
@@ -27658,6 +28089,18 @@
                         "Player",
                         "<",
                         "Wizard.ZOrder() + 20"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Health::Health::IsDead"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "Health",
+                        ""
                       ],
                       "subInstructions": []
                     },
@@ -28105,73 +28548,6 @@
                       "events": []
                     }
                   ]
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::IsDead"
-                      },
-                      "parameters": [
-                        "Wizard",
-                        "Health",
-                        "<="
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Wizard",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "VarObjet"
-                      },
-                      "parameters": [
-                        "Wizard",
-                        "Health",
-                        "<=",
-                        "0"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Wizard",
-                        ""
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
-                  "events": []
                 }
               ],
               "parameters": []
@@ -28185,7 +28561,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Fireball",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28243,6 +28619,88 @@
                   "parameters": [
                     "Fireball",
                     ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Fireball",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "FireballLight",
+                    "Fireball.PointX(\"FireballLight\")",
+                    "Fireball.PointY(\"FireballLight\")",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Fireball",
+                    "FireballLight"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Fireball",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "LinkedObjects::PickObjectsLinkedTo"
+                  },
+                  "parameters": [
+                    "",
+                    "FireballLight",
+                    "Fireball"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MettreAutourPos"
+                  },
+                  "parameters": [
+                    "FireballLight",
+                    "Fireball.PointX(\"FireballLight\")",
+                    "Fireball.PointY(\"FireballLight\")",
+                    "0",
+                    "0"
                   ],
                   "subInstructions": []
                 }
@@ -28569,7 +29027,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28677,7 +29135,7 @@
                   },
                   "parameters": [
                     "",
-                    "7",
+                    "5",
                     "\"Spawn Delay\""
                   ],
                   "subInstructions": []
