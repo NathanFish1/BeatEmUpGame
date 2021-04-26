@@ -50,17 +50,17 @@ gdjs.DeathScreenCode.condition3IsTrue_0 = {val:false};
 gdjs.DeathScreenCode.condition4IsTrue_0 = {val:false};
 
 
-gdjs.DeathScreenCode.mapOfGDgdjs_46DeathScreenCode_46GDNoteObjects2Objects = Hashtable.newFrom({"Note": gdjs.DeathScreenCode.GDNoteObjects2});gdjs.DeathScreenCode.mapOfGDgdjs_46DeathScreenCode_46GDNoteObjects1Objects = Hashtable.newFrom({"Note": gdjs.DeathScreenCode.GDNoteObjects1});gdjs.DeathScreenCode.eventsList0 = function(runtimeScene) {
+gdjs.DeathScreenCode.mapOfGDgdjs_46DeathScreenCode_46GDBackObjects2Objects = Hashtable.newFrom({"Back": gdjs.DeathScreenCode.GDBackObjects2});gdjs.DeathScreenCode.mapOfGDgdjs_46DeathScreenCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.DeathScreenCode.GDBackObjects1});gdjs.DeathScreenCode.eventsList0 = function(runtimeScene) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Note"), gdjs.DeathScreenCode.GDNoteObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Back"), gdjs.DeathScreenCode.GDBackObjects2);
 
 gdjs.DeathScreenCode.condition0IsTrue_0.val = false;
 gdjs.DeathScreenCode.condition1IsTrue_0.val = false;
 gdjs.DeathScreenCode.condition2IsTrue_0.val = false;
 {
-gdjs.DeathScreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.DeathScreenCode.mapOfGDgdjs_46DeathScreenCode_46GDNoteObjects2Objects, runtimeScene, true, false);
+gdjs.DeathScreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.DeathScreenCode.mapOfGDgdjs_46DeathScreenCode_46GDBackObjects2Objects, runtimeScene, true, false);
 }if ( gdjs.DeathScreenCode.condition0IsTrue_0.val ) {
 {
 gdjs.DeathScreenCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
@@ -78,14 +78,14 @@ if (gdjs.DeathScreenCode.condition2IsTrue_0.val) {
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Note"), gdjs.DeathScreenCode.GDNoteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Back"), gdjs.DeathScreenCode.GDBackObjects1);
 
 gdjs.DeathScreenCode.condition0IsTrue_0.val = false;
 gdjs.DeathScreenCode.condition1IsTrue_0.val = false;
 gdjs.DeathScreenCode.condition2IsTrue_0.val = false;
 gdjs.DeathScreenCode.condition3IsTrue_0.val = false;
 {
-gdjs.DeathScreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.DeathScreenCode.mapOfGDgdjs_46DeathScreenCode_46GDNoteObjects1Objects, runtimeScene, true, false);
+gdjs.DeathScreenCode.condition0IsTrue_0.val = gdjs.evtTools.input.cursorOnObject(gdjs.DeathScreenCode.mapOfGDgdjs_46DeathScreenCode_46GDBackObjects1Objects, runtimeScene, true, false);
 }if ( gdjs.DeathScreenCode.condition0IsTrue_0.val ) {
 {
 gdjs.DeathScreenCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");

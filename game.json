@@ -10360,7 +10360,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Move = LEFT, RIGHT, UP DOWN\n                            or\n                       W,A,S,D\n\nAttack = LMouse or E\n\nJump = Space\n\nHealth = Shown in top left\n\nPowerUps can be collected through playing\n",
+          "string": "Move = LEFT, RIGHT, UP DOWN\n                            or\n                       W,A,S,D\n\nAttack = LMouse or E\n\nJump = Space (Will Dodge attacks as well)\n\nHealth = Shown in top left\n\nPowerUps can be collected through playing\n",
           "font": "StarTrebek-7BEmw.ttf",
           "characterSize": 35,
           "color": {
@@ -20017,7 +20017,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28460,7 +28460,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28568,7 +28568,7 @@
                   },
                   "parameters": [
                     "",
-                    "7",
+                    "10",
                     "\"Spawn Delay\""
                   ],
                   "subInstructions": []
@@ -34980,6 +34980,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "height": 96,
+          "layer": "",
+          "locked": false,
+          "name": "Back",
+          "persistentUuid": "0647a29c-44b8-41df-a6e0-87b6e4080754",
+          "width": 157,
+          "x": 691,
+          "y": 602,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -35090,7 +35106,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "Note",
+                    "Back",
                     "",
                     "",
                     ""
@@ -35148,7 +35164,7 @@
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
-                    "Note",
+                    "Back",
                     "",
                     "",
                     ""

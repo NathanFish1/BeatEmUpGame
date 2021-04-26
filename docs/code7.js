@@ -108,7 +108,7 @@ for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects1.length;i<l;+
 gdjs.SettingsCode.GDVolumeControlObjects1.length = k;}if ( gdjs.SettingsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SettingsCode.conditionTrue_1 = gdjs.SettingsCode.condition2IsTrue_0;
-gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14752772);
+gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14789084);
 }
 }}
 }
@@ -143,7 +143,7 @@ for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects1.length;i<l;+
 gdjs.SettingsCode.GDVolumeControlObjects1.length = k;}if ( gdjs.SettingsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SettingsCode.conditionTrue_1 = gdjs.SettingsCode.condition2IsTrue_0;
-gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14754020);
+gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14790332);
 }
 }}
 }
@@ -178,7 +178,7 @@ for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects1.length;i<l;+
 gdjs.SettingsCode.GDVolumeControlObjects1.length = k;}if ( gdjs.SettingsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SettingsCode.conditionTrue_1 = gdjs.SettingsCode.condition2IsTrue_0;
-gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14755212);
+gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14791524);
 }
 }}
 }
