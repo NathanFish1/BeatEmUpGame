@@ -143,6 +143,9 @@ gdjs.copyArray(runtimeScene.getObjects("Cam"), gdjs.DeathScreenCode.GDCamObjects
 {gdjs.evtTools.camera.centerCamera(runtimeScene, (gdjs.DeathScreenCode.GDCamObjects1.length !== 0 ? gdjs.DeathScreenCode.GDCamObjects1[0] : null), true, "", 0);
 }{gdjs.evtTools.advancedWindow.maximize(true);
 }{gdjs.evtTools.window.setAdaptGameResolutionAtRuntime(runtimeScene, true);
+}{for(var i = 0, len = gdjs.DeathScreenCode.GDCamObjects1.length ;i < len;++i) {
+    gdjs.DeathScreenCode.GDCamObjects1[i].hide();
+}
 }}
 
 }

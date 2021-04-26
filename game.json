@@ -20,7 +20,7 @@
     "author": "Nathan Fish",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "D:\\Nathans_Hard_Drive\\GitHub\\BeatEmUpGame\\docs",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
@@ -4484,7 +4484,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.1429,
+              "timeBetweenFrames": 0.11110000312328339,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -5988,7 +5988,7 @@
         {
           "name": "Damage",
           "type": "string",
-          "value": "30"
+          "value": "20"
         },
         {
           "name": "KockbackState",
@@ -6013,7 +6013,7 @@
         {
           "name": "Health",
           "type": "string",
-          "value": "200"
+          "value": "150"
         }
       ],
       "behaviors": [
@@ -6027,7 +6027,7 @@
         {
           "name": "Health",
           "type": "Health::Health",
-          "Health": 200,
+          "Health": 150,
           "DamageCooldown": 0.5,
           "MaxHealth": 0,
           "IsJustDamaged": false,
@@ -14415,7 +14415,7 @@
             {
               "name": "DamageClose",
               "type": "string",
-              "value": "45"
+              "value": "30"
             },
             {
               "name": "Health",
@@ -20017,7 +20017,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20028,7 +20028,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Player Set Up",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -25843,7 +25843,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Wizard",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27441,7 +27441,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "States",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -27609,126 +27609,325 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Plan"
+                      },
+                      "parameters": [
+                        "Player",
+                        ">",
+                        "Wizard.ZOrder() - 15"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Plan"
+                      },
+                      "parameters": [
+                        "Player",
+                        "<",
+                        "Wizard.ZOrder() + 15"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "BuiltinCommonInstructions::Once"
                       },
                       "parameters": [],
                       "subInstructions": []
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarScene"
-                      },
-                      "parameters": [
-                        "TotalDamage",
-                        "=",
-                        "(Wizard.Variable(DamageClose) - (Wizard.Variable(DamageClose) *(GlobalVariable(Player.Armour)/100)))"
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "Wizard"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Player",
+                            ">",
+                            "Wizard.X() + 10"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "TotalDamage",
+                            "=",
+                            "(Wizard.Variable(DamageClose) - (Wizard.Variable(DamageClose) *(GlobalVariable(Player.Armour)/100)))"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Health",
+                            "Variable(TotalDamage)",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "DamageNum",
+                            "Player.PointX(\"DamageNum\") + RandomInRange(-20,20)",
+                            "Player.PointY(\"DamageNum\") + RandomInRange(-20,20)",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "DamageNum",
+                            "=",
+                            "VariableString(TotalDamage)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "DamageNum",
+                            "=",
+                            "2000"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "LinkedObjects::LinkObjects"
+                          },
+                          "parameters": [
+                            "",
+                            "Player",
+                            "DamageNum"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "damage_2_meghan.wav",
+                            "",
+                            "GlobalVariable(SFXVolume)",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"Hurt\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Health",
+                            "\"Damaged\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
                     },
                     {
-                      "type": {
-                        "inverted": false,
-                        "value": "Health::Health::Hit"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Health",
-                        "Variable(TotalDamage)",
-                        ""
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "FlippedX"
+                          },
+                          "parameters": [
+                            "Wizard"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "Player",
+                            "<",
+                            "Wizard.X() - 10"
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "Create"
-                      },
-                      "parameters": [
-                        "",
-                        "DamageNum",
-                        "Player.PointX(\"DamageNum\") + RandomInRange(-20,20)",
-                        "Player.PointY(\"DamageNum\") + RandomInRange(-20,20)",
-                        ""
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ModVarScene"
+                          },
+                          "parameters": [
+                            "TotalDamage",
+                            "=",
+                            "(Wizard.Variable(DamageClose) - (Wizard.Variable(DamageClose) *(GlobalVariable(Player.Armour)/100)))"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Health",
+                            "Variable(TotalDamage)",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "DamageNum",
+                            "Player.PointX(\"DamageNum\") + RandomInRange(-20,20)",
+                            "Player.PointY(\"DamageNum\") + RandomInRange(-20,20)",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "TextObject::String"
+                          },
+                          "parameters": [
+                            "DamageNum",
+                            "=",
+                            "VariableString(TotalDamage)"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "DamageNum",
+                            "=",
+                            "2000"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "LinkedObjects::LinkObjects"
+                          },
+                          "parameters": [
+                            "",
+                            "Player",
+                            "DamageNum"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "damage_2_meghan.wav",
+                            "",
+                            "GlobalVariable(SFXVolume)",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"Hurt\""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "SetAnimationName"
+                          },
+                          "parameters": [
+                            "Health",
+                            "\"Damaged\""
+                          ],
+                          "subInstructions": []
+                        }
                       ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "TextObject::String"
-                      },
-                      "parameters": [
-                        "DamageNum",
-                        "=",
-                        "VariableString(TotalDamage)"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ChangePlan"
-                      },
-                      "parameters": [
-                        "DamageNum",
-                        "=",
-                        "2000"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "LinkedObjects::LinkObjects"
-                      },
-                      "parameters": [
-                        "",
-                        "Player",
-                        "DamageNum"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "damage_2_meghan.wav",
-                        "",
-                        "GlobalVariable(SFXVolume)",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Player",
-                        "\"Hurt\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "SetAnimationName"
-                      },
-                      "parameters": [
-                        "Health",
-                        "\"Damaged\""
-                      ],
-                      "subInstructions": []
+                      "events": []
                     }
-                  ],
-                  "events": []
+                  ]
                 },
                 {
                   "disabled": false,
@@ -35050,6 +35249,16 @@
                 "yes"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "Cam"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -35519,8 +35728,8 @@
           "name": "Settings",
           "persistentUuid": "39619cca-e4f6-44ca-97d4-f9a05d23babe",
           "width": 0,
-          "x": 695,
-          "y": 632,
+          "x": 611,
+          "y": 549,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -35812,6 +36021,16 @@
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Settings"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -35857,6 +36076,18 @@
                     "\"Score \" + GlobalVariableString(Score)"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Rotate"
+                  },
+                  "parameters": [
+                    "Settings",
+                    "35",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -35870,7 +36101,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -36032,6 +36263,17 @@
                   "parameters": [
                     "Button",
                     "\"WriteWait\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Settings",
+                    ""
                   ],
                   "subInstructions": []
                 }
