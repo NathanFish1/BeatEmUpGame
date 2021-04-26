@@ -1,44 +1,64 @@
 gdjs.SettingsCode = {};
 gdjs.SettingsCode.GDPlayerObjects1= [];
 gdjs.SettingsCode.GDPlayerObjects2= [];
+gdjs.SettingsCode.GDPlayerObjects3= [];
 gdjs.SettingsCode.GDGoblinObjects1= [];
 gdjs.SettingsCode.GDGoblinObjects2= [];
+gdjs.SettingsCode.GDGoblinObjects3= [];
 gdjs.SettingsCode.GDShadowObjects1= [];
 gdjs.SettingsCode.GDShadowObjects2= [];
+gdjs.SettingsCode.GDShadowObjects3= [];
 gdjs.SettingsCode.GDHealthBarBaseObjects1= [];
 gdjs.SettingsCode.GDHealthBarBaseObjects2= [];
+gdjs.SettingsCode.GDHealthBarBaseObjects3= [];
 gdjs.SettingsCode.GDHealthObjects1= [];
 gdjs.SettingsCode.GDHealthObjects2= [];
+gdjs.SettingsCode.GDHealthObjects3= [];
 gdjs.SettingsCode.GDHitBoxObjects1= [];
 gdjs.SettingsCode.GDHitBoxObjects2= [];
+gdjs.SettingsCode.GDHitBoxObjects3= [];
 gdjs.SettingsCode.GDJumpObjects1= [];
 gdjs.SettingsCode.GDJumpObjects2= [];
+gdjs.SettingsCode.GDJumpObjects3= [];
 gdjs.SettingsCode.GDLevelObjects1= [];
 gdjs.SettingsCode.GDLevelObjects2= [];
+gdjs.SettingsCode.GDLevelObjects3= [];
 gdjs.SettingsCode.GDCamObjects1= [];
 gdjs.SettingsCode.GDCamObjects2= [];
+gdjs.SettingsCode.GDCamObjects3= [];
 gdjs.SettingsCode.GDPowerUpsObjects1= [];
 gdjs.SettingsCode.GDPowerUpsObjects2= [];
+gdjs.SettingsCode.GDPowerUpsObjects3= [];
 gdjs.SettingsCode.GDSettingsObjects1= [];
 gdjs.SettingsCode.GDSettingsObjects2= [];
+gdjs.SettingsCode.GDSettingsObjects3= [];
 gdjs.SettingsCode.GDBackObjects1= [];
 gdjs.SettingsCode.GDBackObjects2= [];
+gdjs.SettingsCode.GDBackObjects3= [];
 gdjs.SettingsCode.GDSliderBaseObjects1= [];
 gdjs.SettingsCode.GDSliderBaseObjects2= [];
+gdjs.SettingsCode.GDSliderBaseObjects3= [];
 gdjs.SettingsCode.GDSliderObjects1= [];
 gdjs.SettingsCode.GDSliderObjects2= [];
+gdjs.SettingsCode.GDSliderObjects3= [];
 gdjs.SettingsCode.GDMusicObjects1= [];
 gdjs.SettingsCode.GDMusicObjects2= [];
+gdjs.SettingsCode.GDMusicObjects3= [];
 gdjs.SettingsCode.GDDialogueObjects1= [];
 gdjs.SettingsCode.GDDialogueObjects2= [];
+gdjs.SettingsCode.GDDialogueObjects3= [];
 gdjs.SettingsCode.GDSFXObjects1= [];
 gdjs.SettingsCode.GDSFXObjects2= [];
+gdjs.SettingsCode.GDSFXObjects3= [];
 gdjs.SettingsCode.GDTitle2Objects1= [];
 gdjs.SettingsCode.GDTitle2Objects2= [];
+gdjs.SettingsCode.GDTitle2Objects3= [];
 gdjs.SettingsCode.GDTitleObjects1= [];
 gdjs.SettingsCode.GDTitleObjects2= [];
+gdjs.SettingsCode.GDTitleObjects3= [];
 gdjs.SettingsCode.GDVolumeControlObjects1= [];
 gdjs.SettingsCode.GDVolumeControlObjects2= [];
+gdjs.SettingsCode.GDVolumeControlObjects3= [];
 
 gdjs.SettingsCode.conditionTrue_0 = {val:false};
 gdjs.SettingsCode.condition0IsTrue_0 = {val:false};
@@ -53,6 +73,153 @@ gdjs.SettingsCode.condition3IsTrue_1 = {val:false};
 
 
 gdjs.SettingsCode.mapOfGDgdjs_46SettingsCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.SettingsCode.GDBackObjects1});gdjs.SettingsCode.eventsList0 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(gdjs.SettingsCode.GDVolumeControlObjects1, gdjs.SettingsCode.GDVolumeControlObjects2);
+
+
+gdjs.SettingsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects2.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDVolumeControlObjects2[i].getVariableNumber(gdjs.SettingsCode.GDVolumeControlObjects2[i].getVariables().get("DraggableSliderControl")) > 0.09 ) {
+        gdjs.SettingsCode.condition0IsTrue_0.val = true;
+        gdjs.SettingsCode.GDVolumeControlObjects2[k] = gdjs.SettingsCode.GDVolumeControlObjects2[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDVolumeControlObjects2.length = k;}if (gdjs.SettingsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects2 */
+{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects2.length ;i < len;++i) {
+    gdjs.SettingsCode.GDVolumeControlObjects2[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5)) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
+
+gdjs.SettingsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariableNumber(gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariables().get("DraggableSliderControl")) < 0.09 ) {
+        gdjs.SettingsCode.condition0IsTrue_0.val = true;
+        gdjs.SettingsCode.GDVolumeControlObjects1[k] = gdjs.SettingsCode.GDVolumeControlObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDVolumeControlObjects1.length = k;}if (gdjs.SettingsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
+{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
+    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+};gdjs.SettingsCode.eventsList1 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(gdjs.SettingsCode.GDVolumeControlObjects1, gdjs.SettingsCode.GDVolumeControlObjects2);
+
+
+gdjs.SettingsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects2.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDVolumeControlObjects2[i].getVariableNumber(gdjs.SettingsCode.GDVolumeControlObjects2[i].getVariables().get("DraggableSliderControl")) > 0.09 ) {
+        gdjs.SettingsCode.condition0IsTrue_0.val = true;
+        gdjs.SettingsCode.GDVolumeControlObjects2[k] = gdjs.SettingsCode.GDVolumeControlObjects2[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDVolumeControlObjects2.length = k;}if (gdjs.SettingsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects2 */
+{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects2.length ;i < len;++i) {
+    gdjs.SettingsCode.GDVolumeControlObjects2[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
+
+gdjs.SettingsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariableNumber(gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariables().get("DraggableSliderControl")) < 0.09 ) {
+        gdjs.SettingsCode.condition0IsTrue_0.val = true;
+        gdjs.SettingsCode.GDVolumeControlObjects1[k] = gdjs.SettingsCode.GDVolumeControlObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDVolumeControlObjects1.length = k;}if (gdjs.SettingsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
+{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
+    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+};gdjs.SettingsCode.eventsList2 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(gdjs.SettingsCode.GDVolumeControlObjects1, gdjs.SettingsCode.GDVolumeControlObjects2);
+
+
+gdjs.SettingsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects2.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDVolumeControlObjects2[i].getVariableNumber(gdjs.SettingsCode.GDVolumeControlObjects2[i].getVariables().get("DraggableSliderControl")) > 0.09 ) {
+        gdjs.SettingsCode.condition0IsTrue_0.val = true;
+        gdjs.SettingsCode.GDVolumeControlObjects2[k] = gdjs.SettingsCode.GDVolumeControlObjects2[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDVolumeControlObjects2.length = k;}if (gdjs.SettingsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects2 */
+{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects2.length ;i < len;++i) {
+    gdjs.SettingsCode.GDVolumeControlObjects2[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
+
+gdjs.SettingsCode.condition0IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariableNumber(gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariables().get("DraggableSliderControl")) < 0.09 ) {
+        gdjs.SettingsCode.condition0IsTrue_0.val = true;
+        gdjs.SettingsCode.GDVolumeControlObjects1[k] = gdjs.SettingsCode.GDVolumeControlObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDVolumeControlObjects1.length = k;}if (gdjs.SettingsCode.condition0IsTrue_0.val) {
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
+{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
+    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+};gdjs.SettingsCode.eventsList3 = function(runtimeScene) {
 
 {
 
@@ -108,16 +275,15 @@ for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects1.length;i<l;+
 gdjs.SettingsCode.GDVolumeControlObjects1.length = k;}if ( gdjs.SettingsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.SettingsCode.conditionTrue_1 = gdjs.SettingsCode.condition2IsTrue_0;
-gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14789084);
+gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14284860);
 }
 }}
 }
 if (gdjs.SettingsCode.condition2IsTrue_0.val) {
-/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
-{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
-    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5)) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+
+{ //Subevents
+gdjs.SettingsCode.eventsList0(runtimeScene);} //End of subevents
 }
-}}
 
 }
 
@@ -148,11 +314,10 @@ gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 }}
 }
 if (gdjs.SettingsCode.condition2IsTrue_0.val) {
-/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
-{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
-    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+
+{ //Subevents
+gdjs.SettingsCode.eventsList1(runtimeScene);} //End of subevents
 }
-}}
 
 }
 
@@ -183,11 +348,10 @@ gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 }}
 }
 if (gdjs.SettingsCode.condition2IsTrue_0.val) {
-/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
-{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
-    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+
+{ //Subevents
+gdjs.SettingsCode.eventsList2(runtimeScene);} //End of subevents
 }
-}}
 
 }
 
@@ -288,46 +452,66 @@ runtimeScene.getOnceTriggers().startNewFrame();
 
 gdjs.SettingsCode.GDPlayerObjects1.length = 0;
 gdjs.SettingsCode.GDPlayerObjects2.length = 0;
+gdjs.SettingsCode.GDPlayerObjects3.length = 0;
 gdjs.SettingsCode.GDGoblinObjects1.length = 0;
 gdjs.SettingsCode.GDGoblinObjects2.length = 0;
+gdjs.SettingsCode.GDGoblinObjects3.length = 0;
 gdjs.SettingsCode.GDShadowObjects1.length = 0;
 gdjs.SettingsCode.GDShadowObjects2.length = 0;
+gdjs.SettingsCode.GDShadowObjects3.length = 0;
 gdjs.SettingsCode.GDHealthBarBaseObjects1.length = 0;
 gdjs.SettingsCode.GDHealthBarBaseObjects2.length = 0;
+gdjs.SettingsCode.GDHealthBarBaseObjects3.length = 0;
 gdjs.SettingsCode.GDHealthObjects1.length = 0;
 gdjs.SettingsCode.GDHealthObjects2.length = 0;
+gdjs.SettingsCode.GDHealthObjects3.length = 0;
 gdjs.SettingsCode.GDHitBoxObjects1.length = 0;
 gdjs.SettingsCode.GDHitBoxObjects2.length = 0;
+gdjs.SettingsCode.GDHitBoxObjects3.length = 0;
 gdjs.SettingsCode.GDJumpObjects1.length = 0;
 gdjs.SettingsCode.GDJumpObjects2.length = 0;
+gdjs.SettingsCode.GDJumpObjects3.length = 0;
 gdjs.SettingsCode.GDLevelObjects1.length = 0;
 gdjs.SettingsCode.GDLevelObjects2.length = 0;
+gdjs.SettingsCode.GDLevelObjects3.length = 0;
 gdjs.SettingsCode.GDCamObjects1.length = 0;
 gdjs.SettingsCode.GDCamObjects2.length = 0;
+gdjs.SettingsCode.GDCamObjects3.length = 0;
 gdjs.SettingsCode.GDPowerUpsObjects1.length = 0;
 gdjs.SettingsCode.GDPowerUpsObjects2.length = 0;
+gdjs.SettingsCode.GDPowerUpsObjects3.length = 0;
 gdjs.SettingsCode.GDSettingsObjects1.length = 0;
 gdjs.SettingsCode.GDSettingsObjects2.length = 0;
+gdjs.SettingsCode.GDSettingsObjects3.length = 0;
 gdjs.SettingsCode.GDBackObjects1.length = 0;
 gdjs.SettingsCode.GDBackObjects2.length = 0;
+gdjs.SettingsCode.GDBackObjects3.length = 0;
 gdjs.SettingsCode.GDSliderBaseObjects1.length = 0;
 gdjs.SettingsCode.GDSliderBaseObjects2.length = 0;
+gdjs.SettingsCode.GDSliderBaseObjects3.length = 0;
 gdjs.SettingsCode.GDSliderObjects1.length = 0;
 gdjs.SettingsCode.GDSliderObjects2.length = 0;
+gdjs.SettingsCode.GDSliderObjects3.length = 0;
 gdjs.SettingsCode.GDMusicObjects1.length = 0;
 gdjs.SettingsCode.GDMusicObjects2.length = 0;
+gdjs.SettingsCode.GDMusicObjects3.length = 0;
 gdjs.SettingsCode.GDDialogueObjects1.length = 0;
 gdjs.SettingsCode.GDDialogueObjects2.length = 0;
+gdjs.SettingsCode.GDDialogueObjects3.length = 0;
 gdjs.SettingsCode.GDSFXObjects1.length = 0;
 gdjs.SettingsCode.GDSFXObjects2.length = 0;
+gdjs.SettingsCode.GDSFXObjects3.length = 0;
 gdjs.SettingsCode.GDTitle2Objects1.length = 0;
 gdjs.SettingsCode.GDTitle2Objects2.length = 0;
+gdjs.SettingsCode.GDTitle2Objects3.length = 0;
 gdjs.SettingsCode.GDTitleObjects1.length = 0;
 gdjs.SettingsCode.GDTitleObjects2.length = 0;
+gdjs.SettingsCode.GDTitleObjects3.length = 0;
 gdjs.SettingsCode.GDVolumeControlObjects1.length = 0;
 gdjs.SettingsCode.GDVolumeControlObjects2.length = 0;
+gdjs.SettingsCode.GDVolumeControlObjects3.length = 0;
 
-gdjs.SettingsCode.eventsList0(runtimeScene);
+gdjs.SettingsCode.eventsList3(runtimeScene);
 return;
 
 }

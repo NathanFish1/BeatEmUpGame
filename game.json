@@ -20017,7 +20017,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20361,6 +20361,75 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "Health::Health::SetHealth"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Health",
+                        "GlobalVariable(Player.CurrentHealth)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "miscellaneous_8_meghan.wav",
+                        "",
+                        "GlobalVariable(DialogueVolume)",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Timer"
+                      },
+                      "parameters": [
+                        "",
+                        "2",
+                        "\"InitialSpawn\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "Cheats",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "Create"
                       },
                       "parameters": [
@@ -20413,19 +20482,6 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Health::Health::SetHealth"
-                      },
-                      "parameters": [
-                        "Player",
-                        "Health",
-                        "GlobalVariable(Player.CurrentHealth)",
-                        ""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
                         "value": "ChangeWidth"
                       },
                       "parameters": [
@@ -20443,20 +20499,6 @@
                       "parameters": [
                         "HealthBarBase",
                         "=",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "miscellaneous_8_meghan.wav",
-                        "",
-                        "GlobalVariable(DialogueVolume)",
                         "1"
                       ],
                       "subInstructions": []
@@ -25832,7 +25874,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Wizard",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27430,7 +27472,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "States",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -27930,7 +27972,7 @@
                         "value": "Health::Health::IsDead"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Wizard",
                         "Health",
                         ""
                       ],
@@ -28018,6 +28060,17 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": [
@@ -28052,6 +28105,73 @@
                       "events": []
                     }
                   ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::IsDead"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "Health",
+                        "<="
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "Health",
+                        "<=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
                 }
               ],
               "parameters": []
@@ -28557,7 +28677,7 @@
                   },
                   "parameters": [
                     "",
-                    "10",
+                    "7",
                     "\"Spawn Delay\""
                   ],
                   "subInstructions": []
@@ -40722,22 +40842,81 @@
               "subInstructions": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-              },
-              "parameters": [
-                "VolumeControl",
-                "DraggableSliderControl",
-                "GlobalVariable(MusicVolume) / 100",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    ">",
+                    "0.09"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    "GlobalVariable(MusicVolume) / 100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    "<",
+                    "0.09"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
-          ],
-          "events": []
+          ]
         },
         {
           "disabled": false,
@@ -40776,22 +40955,81 @@
               "subInstructions": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-              },
-              "parameters": [
-                "VolumeControl",
-                "DraggableSliderControl",
-                "GlobalVariable(SFXVolume) / 100",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    ">",
+                    "0.09"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    "GlobalVariable(SFXVolume) / 100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    "<",
+                    "0.09"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
-          ],
-          "events": []
+          ]
         },
         {
           "disabled": false,
@@ -40830,22 +41068,81 @@
               "subInstructions": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "inverted": false,
-                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-              },
-              "parameters": [
-                "VolumeControl",
-                "DraggableSliderControl",
-                "GlobalVariable(DialogueVolume) / 100",
-                ""
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    ">",
+                    "0.09"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    "GlobalVariable(SFXVolume) / 100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    "<",
+                    "0.09"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+                  },
+                  "parameters": [
+                    "VolumeControl",
+                    "DraggableSliderControl",
+                    "0",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             }
-          ],
-          "events": []
+          ]
         },
         {
           "disabled": false,
