@@ -9127,7 +9127,7 @@
               "parameters": [
                 "MusicVolume",
                 "=",
-                "50"
+                "20"
               ],
               "subInstructions": []
             },
@@ -9139,7 +9139,7 @@
               "parameters": [
                 "SFXVolume",
                 "=",
-                "50"
+                "20"
               ],
               "subInstructions": []
             },
@@ -9151,7 +9151,7 @@
               "parameters": [
                 "DialogueVolume",
                 "=",
-                "50"
+                "20"
               ],
               "subInstructions": []
             },
@@ -22094,7 +22094,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Player Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -25650,7 +25650,7 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Enemies",
+              "object": "Goblin",
               "conditions": [
                 {
                   "type": {
@@ -25658,7 +25658,7 @@
                     "value": "Health::Health::IsDead"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Goblin",
                     "Health",
                     ""
                   ],
@@ -25672,7 +25672,7 @@
                   "parameters": [
                     "",
                     "EnemyHitBox",
-                    "Enemies"
+                    "Goblin"
                   ],
                   "subInstructions": []
                 },
@@ -25684,7 +25684,7 @@
                   "parameters": [
                     "",
                     "MoveSpot",
-                    "Enemies"
+                    "Goblin"
                   ],
                   "subInstructions": []
                 }
@@ -25832,7 +25832,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Wizard",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
