@@ -9127,7 +9127,7 @@
               "parameters": [
                 "MusicVolume",
                 "=",
-                "20"
+                "0"
               ],
               "subInstructions": []
             },
@@ -9139,7 +9139,7 @@
               "parameters": [
                 "SFXVolume",
                 "=",
-                "20"
+                "0"
               ],
               "subInstructions": []
             },
@@ -9151,7 +9151,7 @@
               "parameters": [
                 "DialogueVolume",
                 "=",
-                "20"
+                "0"
               ],
               "subInstructions": []
             },
@@ -40842,81 +40842,22 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    ">",
-                    "0.09"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+              },
+              "parameters": [
+                "VolumeControl",
+                "DraggableSliderControl",
+                "GlobalVariable(SFXVolume) / 100",
+                ""
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    "GlobalVariable(MusicVolume) / 100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    "<",
-                    "0.09"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    "0",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -40955,81 +40896,22 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    ">",
-                    "0.09"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+              },
+              "parameters": [
+                "VolumeControl",
+                "DraggableSliderControl",
+                "GlobalVariable(SFXVolume) / 100",
+                ""
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    "GlobalVariable(SFXVolume) / 100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    "<",
-                    "0.09"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    "0",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "events": []
         },
         {
           "disabled": false,
@@ -41068,81 +40950,22 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
-          "events": [
+          "actions": [
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    ">",
-                    "0.09"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
+              },
+              "parameters": [
+                "VolumeControl",
+                "DraggableSliderControl",
+                "GlobalVariable(SFXVolume) / 100",
+                ""
               ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    "GlobalVariable(SFXVolume) / 100",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
-            },
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "VarObjet"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    "<",
-                    "0.09"
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-                  },
-                  "parameters": [
-                    "VolumeControl",
-                    "DraggableSliderControl",
-                    "0",
-                    ""
-                  ],
-                  "subInstructions": []
-                }
-              ],
-              "events": []
+              "subInstructions": []
             }
-          ]
+          ],
+          "events": []
         },
         {
           "disabled": false,
