@@ -9154,6 +9154,39 @@
                 "50"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "Ludum Dare 32 - Track 2.wav"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "Ambient Music.wav"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "Purple Black Loop.wav"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -10308,7 +10341,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "Pressing these buttons at anytime during the game will help.\nF = 10000 Damage\nI = 100000 Health\nK = Show Game Statistics \nUse of cheats will nullify your chance at the leaderboads",
+          "string": "Pressing these buttons at anytime during the game will help.\nF = 10000 Damage\nI = 100000 Health\nK = Show Game Statistics \nUse of cheats will nullify your chance at the leaderboads.\nIf music is not playing for either the menu or the main game please close and restart the game :)",
           "font": "StarTrebek-7BEmw.ttf",
           "characterSize": 35,
           "color": {
@@ -14387,7 +14420,7 @@
             {
               "name": "Health",
               "type": "string",
-              "value": "150"
+              "value": "100"
             },
             {
               "name": "KnockbackState",
@@ -14415,7 +14448,7 @@
             {
               "name": "Health",
               "type": "Health::Health",
-              "Health": 150,
+              "Health": 100,
               "DamageCooldown": 0,
               "MaxHealth": 0,
               "IsJustDamaged": false,
@@ -16429,7 +16462,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.125,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -16573,7 +16606,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.25,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -25720,7 +25753,7 @@
                     "",
                     "mixkit-enemy-death-voice-3168.wav",
                     "",
-                    "GlobalVariable(SFXVolume)",
+                    "GlobalVariable(DialogueVolume)",
                     "1"
                   ],
                   "subInstructions": []
@@ -25810,7 +25843,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Wizard",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27232,6 +27265,74 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                      },
+                      "parameters": [
+                        "",
+                        "AttackNotification",
+                        "Wizard"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ObjectTimer"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "\"AttackClose\"",
+                        "1.5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "AttackNotification",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "\"Delay\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RemoveObjectTimer"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "\"AttackClose\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Wizard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "AnimationName"
                       },
                       "parameters": [
@@ -27340,7 +27441,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "States",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -27654,7 +27755,7 @@
                       },
                       "parameters": [
                         "",
-                        "MoveSpot",
+                        "MoveSpot2",
                         "Wizard"
                       ],
                       "subInstructions": []
@@ -27711,7 +27812,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "MoveSpot",
+                        "MoveSpot2",
                         ""
                       ],
                       "subInstructions": []
@@ -27725,7 +27826,7 @@
                         "",
                         "mixkit-enemy-death-voice-3168.wav",
                         "",
-                        "GlobalVariable(SFXVolume)",
+                        "GlobalVariable(DialogueVolume)",
                         "1"
                       ],
                       "subInstructions": []
@@ -27924,6 +28025,18 @@
                   "parameters": [
                     "Fireball",
                     "\"Explode\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Health::Health::IsDead"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    ""
                   ],
                   "subInstructions": []
                 },

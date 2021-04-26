@@ -428,7 +428,7 @@ for(var i = 0, k = 0, l = gdjs.RewardsCode.GDPowerUpsObjects2.length;i<l;++i) {
 gdjs.RewardsCode.GDPowerUpsObjects2.length = k;}if ( gdjs.RewardsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.RewardsCode.conditionTrue_1 = gdjs.RewardsCode.condition1IsTrue_0;
-gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14587980);
+gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14604228);
 }
 }}
 if (gdjs.RewardsCode.condition1IsTrue_0.val) {
@@ -458,7 +458,7 @@ for(var i = 0, k = 0, l = gdjs.RewardsCode.GDPowerUpsObjects2.length;i<l;++i) {
 gdjs.RewardsCode.GDPowerUpsObjects2.length = k;}if ( gdjs.RewardsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.RewardsCode.conditionTrue_1 = gdjs.RewardsCode.condition1IsTrue_0;
-gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14589116);
+gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14605364);
 }
 }}
 if (gdjs.RewardsCode.condition1IsTrue_0.val) {
@@ -487,7 +487,7 @@ for(var i = 0, k = 0, l = gdjs.RewardsCode.GDPowerUpsObjects2.length;i<l;++i) {
 gdjs.RewardsCode.GDPowerUpsObjects2.length = k;}if ( gdjs.RewardsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.RewardsCode.conditionTrue_1 = gdjs.RewardsCode.condition1IsTrue_0;
-gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14590204);
+gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14606452);
 }
 }}
 if (gdjs.RewardsCode.condition1IsTrue_0.val) {
@@ -516,7 +516,7 @@ for(var i = 0, k = 0, l = gdjs.RewardsCode.GDPowerUpsObjects2.length;i<l;++i) {
 gdjs.RewardsCode.GDPowerUpsObjects2.length = k;}if ( gdjs.RewardsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.RewardsCode.conditionTrue_1 = gdjs.RewardsCode.condition1IsTrue_0;
-gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14591284);
+gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14607532);
 }
 }}
 if (gdjs.RewardsCode.condition1IsTrue_0.val) {
@@ -545,7 +545,7 @@ for(var i = 0, k = 0, l = gdjs.RewardsCode.GDPowerUpsObjects2.length;i<l;++i) {
 gdjs.RewardsCode.GDPowerUpsObjects2.length = k;}if ( gdjs.RewardsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.RewardsCode.conditionTrue_1 = gdjs.RewardsCode.condition1IsTrue_0;
-gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14592396);
+gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14608644);
 }
 }}
 if (gdjs.RewardsCode.condition1IsTrue_0.val) {
@@ -574,7 +574,7 @@ for(var i = 0, k = 0, l = gdjs.RewardsCode.GDPowerUpsObjects2.length;i<l;++i) {
 gdjs.RewardsCode.GDPowerUpsObjects2.length = k;}if ( gdjs.RewardsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.RewardsCode.conditionTrue_1 = gdjs.RewardsCode.condition1IsTrue_0;
-gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14593500);
+gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14609748);
 }
 }}
 if (gdjs.RewardsCode.condition1IsTrue_0.val) {
@@ -603,7 +603,7 @@ for(var i = 0, k = 0, l = gdjs.RewardsCode.GDPowerUpsObjects2.length;i<l;++i) {
 gdjs.RewardsCode.GDPowerUpsObjects2.length = k;}if ( gdjs.RewardsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.RewardsCode.conditionTrue_1 = gdjs.RewardsCode.condition1IsTrue_0;
-gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14594516);
+gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14610764);
 }
 }}
 if (gdjs.RewardsCode.condition1IsTrue_0.val) {
@@ -632,7 +632,7 @@ for(var i = 0, k = 0, l = gdjs.RewardsCode.GDPowerUpsObjects2.length;i<l;++i) {
 gdjs.RewardsCode.GDPowerUpsObjects2.length = k;}if ( gdjs.RewardsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.RewardsCode.conditionTrue_1 = gdjs.RewardsCode.condition1IsTrue_0;
-gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14595628);
+gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14611876);
 }
 }}
 if (gdjs.RewardsCode.condition1IsTrue_0.val) {
@@ -661,7 +661,7 @@ for(var i = 0, k = 0, l = gdjs.RewardsCode.GDPowerUpsObjects2.length;i<l;++i) {
 gdjs.RewardsCode.GDPowerUpsObjects2.length = k;}if ( gdjs.RewardsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.RewardsCode.conditionTrue_1 = gdjs.RewardsCode.condition1IsTrue_0;
-gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14596676);
+gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14612924);
 }
 }}
 if (gdjs.RewardsCode.condition1IsTrue_0.val) {
@@ -689,7 +689,7 @@ for(var i = 0, k = 0, l = gdjs.RewardsCode.GDPowerUpsObjects1.length;i<l;++i) {
 gdjs.RewardsCode.GDPowerUpsObjects1.length = k;}if ( gdjs.RewardsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.RewardsCode.conditionTrue_1 = gdjs.RewardsCode.condition1IsTrue_0;
-gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14598092);
+gdjs.RewardsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14614340);
 }
 }}
 if (gdjs.RewardsCode.condition1IsTrue_0.val) {

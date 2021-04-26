@@ -76,6 +76,9 @@ gdjs.ClickToContinueCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sce
 {runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(50);
 }{runtimeScene.getGame().getVariables().getFromIndex(6).setNumber(50);
 }{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(50);
+}{gdjs.evtTools.sound.preloadMusic(runtimeScene, "Ludum Dare 32 - Track 2.wav");
+}{gdjs.evtTools.sound.preloadMusic(runtimeScene, "Ambient Music.wav");
+}{gdjs.evtTools.sound.preloadMusic(runtimeScene, "Purple Black Loop.wav");
 }}
 
 }
