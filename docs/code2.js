@@ -2522,7 +2522,6 @@ gdjs.BattleCode.condition3IsTrue_0.val = false;
 gdjs.BattleCode.condition4IsTrue_0.val = false;
 gdjs.BattleCode.condition5IsTrue_0.val = false;
 gdjs.BattleCode.condition6IsTrue_0.val = false;
-gdjs.BattleCode.condition7IsTrue_0.val = false;
 {
 {gdjs.BattleCode.conditionTrue_1 = gdjs.BattleCode.condition0IsTrue_0;
 gdjs.BattleCode.GDEnemyHitBoxObjects2_1final.length = 0;gdjs.BattleCode.GDGoblinObjects2_1final.length = 0;gdjs.BattleCode.GDHitBoxObjects2_1final.length = 0;gdjs.BattleCode.GDWizardObjects2_1final.length = 0;gdjs.BattleCode.condition0IsTrue_1.val = false;
@@ -2643,48 +2642,32 @@ gdjs.BattleCode.GDGoblinObjects2.length = k;for(var i = 0, k = 0, l = gdjs.Battl
 }
 gdjs.BattleCode.GDWizardObjects2.length = k;}if ( gdjs.BattleCode.condition3IsTrue_0.val ) {
 {
-for(var i = 0, k = 0, l = gdjs.BattleCode.GDGoblinObjects2.length;i<l;++i) {
-    if ( !(gdjs.BattleCode.GDGoblinObjects2[i].isCurrentAnimationName("AttackClose")) ) {
-        gdjs.BattleCode.condition4IsTrue_0.val = true;
-        gdjs.BattleCode.GDGoblinObjects2[k] = gdjs.BattleCode.GDGoblinObjects2[i];
-        ++k;
-    }
-}
-gdjs.BattleCode.GDGoblinObjects2.length = k;for(var i = 0, k = 0, l = gdjs.BattleCode.GDWizardObjects2.length;i<l;++i) {
-    if ( !(gdjs.BattleCode.GDWizardObjects2[i].isCurrentAnimationName("AttackClose")) ) {
-        gdjs.BattleCode.condition4IsTrue_0.val = true;
-        gdjs.BattleCode.GDWizardObjects2[k] = gdjs.BattleCode.GDWizardObjects2[i];
-        ++k;
-    }
-}
-gdjs.BattleCode.GDWizardObjects2.length = k;}if ( gdjs.BattleCode.condition4IsTrue_0.val ) {
-{
 for(var i = 0, k = 0, l = gdjs.BattleCode.GDPlayerObjects2.length;i<l;++i) {
     if ( !(gdjs.BattleCode.GDPlayerObjects2[i].getBehavior("Health").IsDead((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
-        gdjs.BattleCode.condition5IsTrue_0.val = true;
+        gdjs.BattleCode.condition4IsTrue_0.val = true;
         gdjs.BattleCode.GDPlayerObjects2[k] = gdjs.BattleCode.GDPlayerObjects2[i];
         ++k;
     }
 }
-gdjs.BattleCode.GDPlayerObjects2.length = k;}if ( gdjs.BattleCode.condition5IsTrue_0.val ) {
+gdjs.BattleCode.GDPlayerObjects2.length = k;}if ( gdjs.BattleCode.condition4IsTrue_0.val ) {
 {
 for(var i = 0, k = 0, l = gdjs.BattleCode.GDGoblinObjects2.length;i<l;++i) {
     if ( gdjs.BattleCode.GDGoblinObjects2[i].getVariableNumber(gdjs.BattleCode.GDGoblinObjects2[i].getVariables().get("KnockbackState")) != 1 ) {
-        gdjs.BattleCode.condition6IsTrue_0.val = true;
+        gdjs.BattleCode.condition5IsTrue_0.val = true;
         gdjs.BattleCode.GDGoblinObjects2[k] = gdjs.BattleCode.GDGoblinObjects2[i];
         ++k;
     }
 }
 gdjs.BattleCode.GDGoblinObjects2.length = k;for(var i = 0, k = 0, l = gdjs.BattleCode.GDWizardObjects2.length;i<l;++i) {
     if ( gdjs.BattleCode.GDWizardObjects2[i].getVariableNumber(gdjs.BattleCode.GDWizardObjects2[i].getVariables().get("KnockbackState")) != 1 ) {
-        gdjs.BattleCode.condition6IsTrue_0.val = true;
+        gdjs.BattleCode.condition5IsTrue_0.val = true;
         gdjs.BattleCode.GDWizardObjects2[k] = gdjs.BattleCode.GDWizardObjects2[i];
         ++k;
     }
 }
-gdjs.BattleCode.GDWizardObjects2.length = k;}if ( gdjs.BattleCode.condition6IsTrue_0.val ) {
+gdjs.BattleCode.GDWizardObjects2.length = k;}if ( gdjs.BattleCode.condition5IsTrue_0.val ) {
 {
-{gdjs.BattleCode.conditionTrue_1 = gdjs.BattleCode.condition7IsTrue_0;
+{gdjs.BattleCode.conditionTrue_1 = gdjs.BattleCode.condition6IsTrue_0;
 gdjs.BattleCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14311164);
 }
 }}
@@ -2693,8 +2676,7 @@ gdjs.BattleCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce
 }
 }
 }
-}
-if (gdjs.BattleCode.condition7IsTrue_0.val) {
+if (gdjs.BattleCode.condition6IsTrue_0.val) {
 /* Reuse gdjs.BattleCode.GDGoblinObjects2 */
 /* Reuse gdjs.BattleCode.GDWizardObjects2 */
 gdjs.BattleCode.GDDamageNumObjects2.length = 0;
@@ -4786,30 +4768,16 @@ if (gdjs.BattleCode.condition5IsTrue_0.val) {
 {
 
 gdjs.copyArray(runtimeScene.getObjects("Goblin"), gdjs.BattleCode.GDGoblinObjects2);
-gdjs.copyArray(runtimeScene.getObjects("Wizard"), gdjs.BattleCode.GDWizardObjects2);
 
-gdjs.BattleCode.forEachTotalCount3 = 0;
-gdjs.BattleCode.forEachObjects3.length = 0;
-gdjs.BattleCode.forEachCount0_3 = gdjs.BattleCode.GDGoblinObjects2.length;
-gdjs.BattleCode.forEachTotalCount3 += gdjs.BattleCode.forEachCount0_3;
-gdjs.BattleCode.forEachObjects3.push.apply(gdjs.BattleCode.forEachObjects3,gdjs.BattleCode.GDGoblinObjects2);
-gdjs.BattleCode.forEachCount1_3 = gdjs.BattleCode.GDWizardObjects2.length;
-gdjs.BattleCode.forEachTotalCount3 += gdjs.BattleCode.forEachCount1_3;
-gdjs.BattleCode.forEachObjects3.push.apply(gdjs.BattleCode.forEachObjects3,gdjs.BattleCode.GDWizardObjects2);
-for(gdjs.BattleCode.forEachIndex3 = 0;gdjs.BattleCode.forEachIndex3 < gdjs.BattleCode.forEachTotalCount3;++gdjs.BattleCode.forEachIndex3) {
+for(gdjs.BattleCode.forEachIndex3 = 0;gdjs.BattleCode.forEachIndex3 < gdjs.BattleCode.GDGoblinObjects2.length;++gdjs.BattleCode.forEachIndex3) {
 gdjs.copyArray(runtimeScene.getObjects("EnemyHitBox"), gdjs.BattleCode.GDEnemyHitBoxObjects3);
 gdjs.copyArray(runtimeScene.getObjects("MoveSpot"), gdjs.BattleCode.GDMoveSpotObjects3);
+gdjs.copyArray(runtimeScene.getObjects("Wizard"), gdjs.BattleCode.GDWizardObjects3);
 gdjs.BattleCode.GDGoblinObjects3.length = 0;
 
-gdjs.BattleCode.GDWizardObjects3.length = 0;
 
-
-if (gdjs.BattleCode.forEachIndex3 < gdjs.BattleCode.forEachCount0_3) {
-    gdjs.BattleCode.GDGoblinObjects3.push(gdjs.BattleCode.forEachObjects3[gdjs.BattleCode.forEachIndex3]);
-}
-else if (gdjs.BattleCode.forEachIndex3 < gdjs.BattleCode.forEachCount0_3+gdjs.BattleCode.forEachCount1_3) {
-    gdjs.BattleCode.GDWizardObjects3.push(gdjs.BattleCode.forEachObjects3[gdjs.BattleCode.forEachIndex3]);
-}
+gdjs.BattleCode.forEachTemporary3 = gdjs.BattleCode.GDGoblinObjects2[gdjs.BattleCode.forEachIndex3];
+gdjs.BattleCode.GDGoblinObjects3.push(gdjs.BattleCode.forEachTemporary3);
 gdjs.BattleCode.condition0IsTrue_0.val = false;
 gdjs.BattleCode.condition1IsTrue_0.val = false;
 gdjs.BattleCode.condition2IsTrue_0.val = false;
@@ -4821,19 +4789,12 @@ for(var i = 0, k = 0, l = gdjs.BattleCode.GDGoblinObjects3.length;i<l;++i) {
         ++k;
     }
 }
-gdjs.BattleCode.GDGoblinObjects3.length = k;for(var i = 0, k = 0, l = gdjs.BattleCode.GDWizardObjects3.length;i<l;++i) {
-    if ( gdjs.BattleCode.GDWizardObjects3[i].getBehavior("Health").IsDead((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
-        gdjs.BattleCode.condition0IsTrue_0.val = true;
-        gdjs.BattleCode.GDWizardObjects3[k] = gdjs.BattleCode.GDWizardObjects3[i];
-        ++k;
-    }
-}
-gdjs.BattleCode.GDWizardObjects3.length = k;}if ( gdjs.BattleCode.condition0IsTrue_0.val ) {
+gdjs.BattleCode.GDGoblinObjects3.length = k;}if ( gdjs.BattleCode.condition0IsTrue_0.val ) {
 {
-gdjs.BattleCode.condition1IsTrue_0.val = gdjs.evtTools.linkedObjects.pickObjectsLinkedTo(runtimeScene, gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDEnemyHitBoxObjects3Objects, (gdjs.BattleCode.GDGoblinObjects3.length !== 0 ? gdjs.BattleCode.GDGoblinObjects3[0] : (gdjs.BattleCode.GDWizardObjects3.length !== 0 ? gdjs.BattleCode.GDWizardObjects3[0] : null)));
+gdjs.BattleCode.condition1IsTrue_0.val = gdjs.evtTools.linkedObjects.pickObjectsLinkedTo(runtimeScene, gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDEnemyHitBoxObjects3Objects, (gdjs.BattleCode.GDGoblinObjects3.length !== 0 ? gdjs.BattleCode.GDGoblinObjects3[0] : null));
 }if ( gdjs.BattleCode.condition1IsTrue_0.val ) {
 {
-gdjs.BattleCode.condition2IsTrue_0.val = gdjs.evtTools.linkedObjects.pickObjectsLinkedTo(runtimeScene, gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDMoveSpotObjects3Objects, (gdjs.BattleCode.GDGoblinObjects3.length !== 0 ? gdjs.BattleCode.GDGoblinObjects3[0] : (gdjs.BattleCode.GDWizardObjects3.length !== 0 ? gdjs.BattleCode.GDWizardObjects3[0] : null)));
+gdjs.BattleCode.condition2IsTrue_0.val = gdjs.evtTools.linkedObjects.pickObjectsLinkedTo(runtimeScene, gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDMoveSpotObjects3Objects, (gdjs.BattleCode.GDGoblinObjects3.length !== 0 ? gdjs.BattleCode.GDGoblinObjects3[0] : null));
 }}
 }
 if (gdjs.BattleCode.condition2IsTrue_0.val) {

@@ -22094,7 +22094,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Player Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -22506,17 +22506,6 @@
                       "parameters": [
                         "Enemies",
                         "\"Death\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": true,
-                        "value": "AnimationName"
-                      },
-                      "parameters": [
-                        "Enemies",
-                        "\"AttackClose\""
                       ],
                       "subInstructions": []
                     },
@@ -26602,7 +26591,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -27441,7 +27430,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "States",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
