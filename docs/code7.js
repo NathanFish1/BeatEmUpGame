@@ -39,17 +39,21 @@ gdjs.SettingsCode.GDTitleObjects1= [];
 gdjs.SettingsCode.GDTitleObjects2= [];
 gdjs.SettingsCode.GDVolumeControlObjects1= [];
 gdjs.SettingsCode.GDVolumeControlObjects2= [];
+gdjs.SettingsCode.GDMuteObjects1= [];
+gdjs.SettingsCode.GDMuteObjects2= [];
 
 gdjs.SettingsCode.conditionTrue_0 = {val:false};
 gdjs.SettingsCode.condition0IsTrue_0 = {val:false};
 gdjs.SettingsCode.condition1IsTrue_0 = {val:false};
 gdjs.SettingsCode.condition2IsTrue_0 = {val:false};
 gdjs.SettingsCode.condition3IsTrue_0 = {val:false};
+gdjs.SettingsCode.condition4IsTrue_0 = {val:false};
 gdjs.SettingsCode.conditionTrue_1 = {val:false};
 gdjs.SettingsCode.condition0IsTrue_1 = {val:false};
 gdjs.SettingsCode.condition1IsTrue_1 = {val:false};
 gdjs.SettingsCode.condition2IsTrue_1 = {val:false};
 gdjs.SettingsCode.condition3IsTrue_1 = {val:false};
+gdjs.SettingsCode.condition4IsTrue_1 = {val:false};
 
 
 gdjs.SettingsCode.mapOfGDgdjs_46SettingsCode_46GDBackObjects1Objects = Hashtable.newFrom({"Back": gdjs.SettingsCode.GDBackObjects1});gdjs.SettingsCode.eventsList0 = function(runtimeScene) {
@@ -115,7 +119,7 @@ gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 if (gdjs.SettingsCode.condition2IsTrue_0.val) {
 /* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
 {for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
-    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(5)) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -185,7 +189,7 @@ gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOn
 if (gdjs.SettingsCode.condition2IsTrue_0.val) {
 /* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
 {for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
-    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(6)) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)) / 100, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }}
 
@@ -281,6 +285,168 @@ gdjs.SettingsCode.condition0IsTrue_0.val = gdjs.evtTools.sound.isSoundOnChannelP
 }
 
 
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Mute"), gdjs.SettingsCode.GDMuteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("VolumeControl"), gdjs.SettingsCode.GDVolumeControlObjects1);
+
+gdjs.SettingsCode.condition0IsTrue_0.val = false;
+gdjs.SettingsCode.condition1IsTrue_0.val = false;
+gdjs.SettingsCode.condition2IsTrue_0.val = false;
+gdjs.SettingsCode.condition3IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariableNumber(gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariables().get("id")) == 1 ) {
+        gdjs.SettingsCode.condition0IsTrue_0.val = true;
+        gdjs.SettingsCode.GDVolumeControlObjects1[k] = gdjs.SettingsCode.GDVolumeControlObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDVolumeControlObjects1.length = k;}if ( gdjs.SettingsCode.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDMuteObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDMuteObjects1[i].getVariableNumber(gdjs.SettingsCode.GDMuteObjects1[i].getVariables().get("id")) == 1 ) {
+        gdjs.SettingsCode.condition1IsTrue_0.val = true;
+        gdjs.SettingsCode.GDMuteObjects1[k] = gdjs.SettingsCode.GDMuteObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDMuteObjects1.length = k;}if ( gdjs.SettingsCode.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDMuteObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDMuteObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.SettingsCode.condition2IsTrue_0.val = true;
+        gdjs.SettingsCode.GDMuteObjects1[k] = gdjs.SettingsCode.GDMuteObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDMuteObjects1.length = k;}if ( gdjs.SettingsCode.condition2IsTrue_0.val ) {
+{
+{gdjs.SettingsCode.conditionTrue_1 = gdjs.SettingsCode.condition3IsTrue_0;
+gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14170516);
+}
+}}
+}
+}
+if (gdjs.SettingsCode.condition3IsTrue_0.val) {
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
+{runtimeScene.getGame().getVariables().getFromIndex(5).setNumber(0);
+}{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
+    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Mute"), gdjs.SettingsCode.GDMuteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("VolumeControl"), gdjs.SettingsCode.GDVolumeControlObjects1);
+
+gdjs.SettingsCode.condition0IsTrue_0.val = false;
+gdjs.SettingsCode.condition1IsTrue_0.val = false;
+gdjs.SettingsCode.condition2IsTrue_0.val = false;
+gdjs.SettingsCode.condition3IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariableNumber(gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariables().get("id")) == 2 ) {
+        gdjs.SettingsCode.condition0IsTrue_0.val = true;
+        gdjs.SettingsCode.GDVolumeControlObjects1[k] = gdjs.SettingsCode.GDVolumeControlObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDVolumeControlObjects1.length = k;}if ( gdjs.SettingsCode.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDMuteObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDMuteObjects1[i].getVariableNumber(gdjs.SettingsCode.GDMuteObjects1[i].getVariables().get("id")) == 2 ) {
+        gdjs.SettingsCode.condition1IsTrue_0.val = true;
+        gdjs.SettingsCode.GDMuteObjects1[k] = gdjs.SettingsCode.GDMuteObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDMuteObjects1.length = k;}if ( gdjs.SettingsCode.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDMuteObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDMuteObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.SettingsCode.condition2IsTrue_0.val = true;
+        gdjs.SettingsCode.GDMuteObjects1[k] = gdjs.SettingsCode.GDMuteObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDMuteObjects1.length = k;}if ( gdjs.SettingsCode.condition2IsTrue_0.val ) {
+{
+{gdjs.SettingsCode.conditionTrue_1 = gdjs.SettingsCode.condition3IsTrue_0;
+gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(14652532);
+}
+}}
+}
+}
+if (gdjs.SettingsCode.condition3IsTrue_0.val) {
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
+{runtimeScene.getGame().getVariables().getFromIndex(6).setNumber(0);
+}{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
+    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Mute"), gdjs.SettingsCode.GDMuteObjects1);
+gdjs.copyArray(runtimeScene.getObjects("VolumeControl"), gdjs.SettingsCode.GDVolumeControlObjects1);
+
+gdjs.SettingsCode.condition0IsTrue_0.val = false;
+gdjs.SettingsCode.condition1IsTrue_0.val = false;
+gdjs.SettingsCode.condition2IsTrue_0.val = false;
+gdjs.SettingsCode.condition3IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDVolumeControlObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariableNumber(gdjs.SettingsCode.GDVolumeControlObjects1[i].getVariables().get("id")) == 3 ) {
+        gdjs.SettingsCode.condition0IsTrue_0.val = true;
+        gdjs.SettingsCode.GDVolumeControlObjects1[k] = gdjs.SettingsCode.GDVolumeControlObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDVolumeControlObjects1.length = k;}if ( gdjs.SettingsCode.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDMuteObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDMuteObjects1[i].getVariableNumber(gdjs.SettingsCode.GDMuteObjects1[i].getVariables().get("id")) == 3 ) {
+        gdjs.SettingsCode.condition1IsTrue_0.val = true;
+        gdjs.SettingsCode.GDMuteObjects1[k] = gdjs.SettingsCode.GDMuteObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDMuteObjects1.length = k;}if ( gdjs.SettingsCode.condition1IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.SettingsCode.GDMuteObjects1.length;i<l;++i) {
+    if ( gdjs.SettingsCode.GDMuteObjects1[i].getBehavior("Checkbox").IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+        gdjs.SettingsCode.condition2IsTrue_0.val = true;
+        gdjs.SettingsCode.GDMuteObjects1[k] = gdjs.SettingsCode.GDMuteObjects1[i];
+        ++k;
+    }
+}
+gdjs.SettingsCode.GDMuteObjects1.length = k;}if ( gdjs.SettingsCode.condition2IsTrue_0.val ) {
+{
+{gdjs.SettingsCode.conditionTrue_1 = gdjs.SettingsCode.condition3IsTrue_0;
+gdjs.SettingsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(15236236);
+}
+}}
+}
+}
+if (gdjs.SettingsCode.condition3IsTrue_0.val) {
+/* Reuse gdjs.SettingsCode.GDVolumeControlObjects1 */
+{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(0);
+}{for(var i = 0, len = gdjs.SettingsCode.GDVolumeControlObjects1.length ;i < len;++i) {
+    gdjs.SettingsCode.GDVolumeControlObjects1[i].getBehavior("DraggableSliderControl").SetValue(0, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}
+}}
+
+}
+
+
 };
 
 gdjs.SettingsCode.func = function(runtimeScene) {
@@ -326,6 +492,8 @@ gdjs.SettingsCode.GDTitleObjects1.length = 0;
 gdjs.SettingsCode.GDTitleObjects2.length = 0;
 gdjs.SettingsCode.GDVolumeControlObjects1.length = 0;
 gdjs.SettingsCode.GDVolumeControlObjects2.length = 0;
+gdjs.SettingsCode.GDMuteObjects1.length = 0;
+gdjs.SettingsCode.GDMuteObjects2.length = 0;
 
 gdjs.SettingsCode.eventsList0(runtimeScene);
 return;

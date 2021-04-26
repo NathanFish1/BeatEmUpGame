@@ -19,23 +19,15 @@ gdjs.BattleCode.GDRightBorderObjects3_1final = [];
 
 gdjs.BattleCode.GDWizardObjects2_1final = [];
 
-gdjs.BattleCode.forEachCount0_2 = 0;
-
 gdjs.BattleCode.forEachCount0_3 = 0;
 
-gdjs.BattleCode.forEachCount1_2 = 0;
-
 gdjs.BattleCode.forEachCount1_3 = 0;
-
-gdjs.BattleCode.forEachIndex2 = 0;
 
 gdjs.BattleCode.forEachIndex3 = 0;
 
 gdjs.BattleCode.forEachIndex4 = 0;
 
 gdjs.BattleCode.forEachIndex5 = 0;
-
-gdjs.BattleCode.forEachObjects2 = [];
 
 gdjs.BattleCode.forEachObjects3 = [];
 
@@ -48,8 +40,6 @@ gdjs.BattleCode.forEachTemporary3 = null;
 gdjs.BattleCode.forEachTemporary4 = null;
 
 gdjs.BattleCode.forEachTemporary5 = null;
-
-gdjs.BattleCode.forEachTotalCount2 = 0;
 
 gdjs.BattleCode.forEachTotalCount3 = 0;
 
@@ -4861,7 +4851,6 @@ gdjs.BattleCode.eventsList30(runtimeScene);} //Subevents end.
 {
 
 gdjs.copyArray(runtimeScene.getObjects("Goblin"), gdjs.BattleCode.GDGoblinObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Wizard"), gdjs.BattleCode.GDWizardObjects1);
 
 gdjs.BattleCode.condition0IsTrue_0.val = false;
 gdjs.BattleCode.condition1IsTrue_0.val = false;
@@ -4873,14 +4862,7 @@ for(var i = 0, k = 0, l = gdjs.BattleCode.GDGoblinObjects1.length;i<l;++i) {
         ++k;
     }
 }
-gdjs.BattleCode.GDGoblinObjects1.length = k;for(var i = 0, k = 0, l = gdjs.BattleCode.GDWizardObjects1.length;i<l;++i) {
-    if ( gdjs.BattleCode.GDWizardObjects1[i].isCurrentAnimationName("Death") ) {
-        gdjs.BattleCode.condition0IsTrue_0.val = true;
-        gdjs.BattleCode.GDWizardObjects1[k] = gdjs.BattleCode.GDWizardObjects1[i];
-        ++k;
-    }
-}
-gdjs.BattleCode.GDWizardObjects1.length = k;}if ( gdjs.BattleCode.condition0IsTrue_0.val ) {
+gdjs.BattleCode.GDGoblinObjects1.length = k;}if ( gdjs.BattleCode.condition0IsTrue_0.val ) {
 {
 for(var i = 0, k = 0, l = gdjs.BattleCode.GDGoblinObjects1.length;i<l;++i) {
     if ( gdjs.BattleCode.GDGoblinObjects1[i].hasAnimationEnded() ) {
@@ -4889,22 +4871,11 @@ for(var i = 0, k = 0, l = gdjs.BattleCode.GDGoblinObjects1.length;i<l;++i) {
         ++k;
     }
 }
-gdjs.BattleCode.GDGoblinObjects1.length = k;for(var i = 0, k = 0, l = gdjs.BattleCode.GDWizardObjects1.length;i<l;++i) {
-    if ( gdjs.BattleCode.GDWizardObjects1[i].hasAnimationEnded() ) {
-        gdjs.BattleCode.condition1IsTrue_0.val = true;
-        gdjs.BattleCode.GDWizardObjects1[k] = gdjs.BattleCode.GDWizardObjects1[i];
-        ++k;
-    }
-}
-gdjs.BattleCode.GDWizardObjects1.length = k;}}
+gdjs.BattleCode.GDGoblinObjects1.length = k;}}
 if (gdjs.BattleCode.condition1IsTrue_0.val) {
 /* Reuse gdjs.BattleCode.GDGoblinObjects1 */
-/* Reuse gdjs.BattleCode.GDWizardObjects1 */
 {for(var i = 0, len = gdjs.BattleCode.GDGoblinObjects1.length ;i < len;++i) {
     gdjs.BattleCode.GDGoblinObjects1[i].deleteFromScene(runtimeScene);
-}
-for(var i = 0, len = gdjs.BattleCode.GDWizardObjects1.length ;i < len;++i) {
-    gdjs.BattleCode.GDWizardObjects1[i].deleteFromScene(runtimeScene);
 }
 }}
 
@@ -5992,8 +5963,8 @@ gdjs.BattleCode.condition0IsTrue_0.val = false;
 {
 gdjs.BattleCode.condition0IsTrue_0.val = !(gdjs.evtTools.linkedObjects.pickObjectsLinkedTo(runtimeScene, gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDAttackNotificationObjects3Objects, (gdjs.BattleCode.GDWizardObjects3.length !== 0 ? gdjs.BattleCode.GDWizardObjects3[0] : null)));
 }if (gdjs.BattleCode.condition0IsTrue_0.val) {
-{for(var i = 0, len = gdjs.BattleCode.GDWizardObjects3.length ;i < len;++i) {
-    gdjs.BattleCode.GDWizardObjects3[i].deleteFromScene(runtimeScene);
+{for(var i = 0, len = gdjs.BattleCode.GDAttackNotificationObjects3.length ;i < len;++i) {
+    gdjs.BattleCode.GDAttackNotificationObjects3[i].deleteFromScene(runtimeScene);
 }
 }}
 }
@@ -6115,7 +6086,7 @@ gdjs.BattleCode.GDDamageNumObjects2.length = 0;
 }
 
 
-};gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDMoveSpot2Objects2Objects = Hashtable.newFrom({"MoveSpot2": gdjs.BattleCode.GDMoveSpot2Objects2});gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDWizRangeObjects2Objects = Hashtable.newFrom({"WizRange": gdjs.BattleCode.GDWizRangeObjects2});gdjs.BattleCode.eventsList51 = function(runtimeScene) {
+};gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDMoveSpot2Objects3Objects = Hashtable.newFrom({"MoveSpot2": gdjs.BattleCode.GDMoveSpot2Objects3});gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDWizRangeObjects3Objects = Hashtable.newFrom({"WizRange": gdjs.BattleCode.GDWizRangeObjects3});gdjs.BattleCode.eventsList51 = function(runtimeScene) {
 
 {
 
@@ -6316,78 +6287,103 @@ gdjs.BattleCode.eventsList50(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("Goblin"), gdjs.BattleCode.GDGoblinObjects1);
-gdjs.copyArray(runtimeScene.getObjects("Wizard"), gdjs.BattleCode.GDWizardObjects1);
+gdjs.copyArray(runtimeScene.getObjects("Goblin"), gdjs.BattleCode.GDGoblinObjects2);
+gdjs.copyArray(runtimeScene.getObjects("Wizard"), gdjs.BattleCode.GDWizardObjects2);
 
-gdjs.BattleCode.forEachTotalCount2 = 0;
-gdjs.BattleCode.forEachObjects2.length = 0;
-gdjs.BattleCode.forEachCount0_2 = gdjs.BattleCode.GDGoblinObjects1.length;
-gdjs.BattleCode.forEachTotalCount2 += gdjs.BattleCode.forEachCount0_2;
-gdjs.BattleCode.forEachObjects2.push.apply(gdjs.BattleCode.forEachObjects2,gdjs.BattleCode.GDGoblinObjects1);
-gdjs.BattleCode.forEachCount1_2 = gdjs.BattleCode.GDWizardObjects1.length;
-gdjs.BattleCode.forEachTotalCount2 += gdjs.BattleCode.forEachCount1_2;
-gdjs.BattleCode.forEachObjects2.push.apply(gdjs.BattleCode.forEachObjects2,gdjs.BattleCode.GDWizardObjects1);
-for(gdjs.BattleCode.forEachIndex2 = 0;gdjs.BattleCode.forEachIndex2 < gdjs.BattleCode.forEachTotalCount2;++gdjs.BattleCode.forEachIndex2) {
-gdjs.copyArray(runtimeScene.getObjects("MoveSpot2"), gdjs.BattleCode.GDMoveSpot2Objects2);
-gdjs.copyArray(runtimeScene.getObjects("WizRange"), gdjs.BattleCode.GDWizRangeObjects2);
-gdjs.BattleCode.GDGoblinObjects2.length = 0;
+gdjs.BattleCode.forEachTotalCount3 = 0;
+gdjs.BattleCode.forEachObjects3.length = 0;
+gdjs.BattleCode.forEachCount0_3 = gdjs.BattleCode.GDGoblinObjects2.length;
+gdjs.BattleCode.forEachTotalCount3 += gdjs.BattleCode.forEachCount0_3;
+gdjs.BattleCode.forEachObjects3.push.apply(gdjs.BattleCode.forEachObjects3,gdjs.BattleCode.GDGoblinObjects2);
+gdjs.BattleCode.forEachCount1_3 = gdjs.BattleCode.GDWizardObjects2.length;
+gdjs.BattleCode.forEachTotalCount3 += gdjs.BattleCode.forEachCount1_3;
+gdjs.BattleCode.forEachObjects3.push.apply(gdjs.BattleCode.forEachObjects3,gdjs.BattleCode.GDWizardObjects2);
+for(gdjs.BattleCode.forEachIndex3 = 0;gdjs.BattleCode.forEachIndex3 < gdjs.BattleCode.forEachTotalCount3;++gdjs.BattleCode.forEachIndex3) {
+gdjs.copyArray(runtimeScene.getObjects("MoveSpot2"), gdjs.BattleCode.GDMoveSpot2Objects3);
+gdjs.copyArray(runtimeScene.getObjects("WizRange"), gdjs.BattleCode.GDWizRangeObjects3);
+gdjs.BattleCode.GDGoblinObjects3.length = 0;
 
-gdjs.BattleCode.GDWizardObjects2.length = 0;
+gdjs.BattleCode.GDWizardObjects3.length = 0;
 
 
-if (gdjs.BattleCode.forEachIndex2 < gdjs.BattleCode.forEachCount0_2) {
-    gdjs.BattleCode.GDGoblinObjects2.push(gdjs.BattleCode.forEachObjects2[gdjs.BattleCode.forEachIndex2]);
+if (gdjs.BattleCode.forEachIndex3 < gdjs.BattleCode.forEachCount0_3) {
+    gdjs.BattleCode.GDGoblinObjects3.push(gdjs.BattleCode.forEachObjects3[gdjs.BattleCode.forEachIndex3]);
 }
-else if (gdjs.BattleCode.forEachIndex2 < gdjs.BattleCode.forEachCount0_2+gdjs.BattleCode.forEachCount1_2) {
-    gdjs.BattleCode.GDWizardObjects2.push(gdjs.BattleCode.forEachObjects2[gdjs.BattleCode.forEachIndex2]);
+else if (gdjs.BattleCode.forEachIndex3 < gdjs.BattleCode.forEachCount0_3+gdjs.BattleCode.forEachCount1_3) {
+    gdjs.BattleCode.GDWizardObjects3.push(gdjs.BattleCode.forEachObjects3[gdjs.BattleCode.forEachIndex3]);
 }
 gdjs.BattleCode.condition0IsTrue_0.val = false;
 gdjs.BattleCode.condition1IsTrue_0.val = false;
 gdjs.BattleCode.condition2IsTrue_0.val = false;
 {
-for(var i = 0, k = 0, l = gdjs.BattleCode.GDWizardObjects2.length;i<l;++i) {
-    if ( gdjs.BattleCode.GDWizardObjects2[i].getBehavior("Health").IsDead((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for(var i = 0, k = 0, l = gdjs.BattleCode.GDWizardObjects3.length;i<l;++i) {
+    if ( gdjs.BattleCode.GDWizardObjects3[i].getBehavior("Health").IsDead((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         gdjs.BattleCode.condition0IsTrue_0.val = true;
-        gdjs.BattleCode.GDWizardObjects2[k] = gdjs.BattleCode.GDWizardObjects2[i];
+        gdjs.BattleCode.GDWizardObjects3[k] = gdjs.BattleCode.GDWizardObjects3[i];
         ++k;
     }
 }
-gdjs.BattleCode.GDWizardObjects2.length = k;}if ( gdjs.BattleCode.condition0IsTrue_0.val ) {
+gdjs.BattleCode.GDWizardObjects3.length = k;}if ( gdjs.BattleCode.condition0IsTrue_0.val ) {
 {
-gdjs.BattleCode.condition1IsTrue_0.val = gdjs.evtTools.linkedObjects.pickObjectsLinkedTo(runtimeScene, gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDMoveSpot2Objects2Objects, (gdjs.BattleCode.GDWizardObjects2.length !== 0 ? gdjs.BattleCode.GDWizardObjects2[0] : null));
+gdjs.BattleCode.condition1IsTrue_0.val = gdjs.evtTools.linkedObjects.pickObjectsLinkedTo(runtimeScene, gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDMoveSpot2Objects3Objects, (gdjs.BattleCode.GDWizardObjects3.length !== 0 ? gdjs.BattleCode.GDWizardObjects3[0] : null));
 }if ( gdjs.BattleCode.condition1IsTrue_0.val ) {
 {
-gdjs.BattleCode.condition2IsTrue_0.val = gdjs.evtTools.linkedObjects.pickObjectsLinkedTo(runtimeScene, gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDWizRangeObjects2Objects, (gdjs.BattleCode.GDWizardObjects2.length !== 0 ? gdjs.BattleCode.GDWizardObjects2[0] : null));
+gdjs.BattleCode.condition2IsTrue_0.val = gdjs.evtTools.linkedObjects.pickObjectsLinkedTo(runtimeScene, gdjs.BattleCode.mapOfGDgdjs_46BattleCode_46GDWizRangeObjects3Objects, (gdjs.BattleCode.GDWizardObjects3.length !== 0 ? gdjs.BattleCode.GDWizardObjects3[0] : null));
 }}
 }
 if (gdjs.BattleCode.condition2IsTrue_0.val) {
-{for(var i = 0, len = gdjs.BattleCode.GDGoblinObjects2.length ;i < len;++i) {
-    gdjs.BattleCode.GDGoblinObjects2[i].clearForces();
+{for(var i = 0, len = gdjs.BattleCode.GDWizardObjects3.length ;i < len;++i) {
+    gdjs.BattleCode.GDWizardObjects3[i].clearForces();
 }
-for(var i = 0, len = gdjs.BattleCode.GDWizardObjects2.length ;i < len;++i) {
-    gdjs.BattleCode.GDWizardObjects2[i].clearForces();
+}{for(var i = 0, len = gdjs.BattleCode.GDWizRangeObjects3.length ;i < len;++i) {
+    gdjs.BattleCode.GDWizRangeObjects3[i].deleteFromScene(runtimeScene);
 }
-}{for(var i = 0, len = gdjs.BattleCode.GDGoblinObjects2.length ;i < len;++i) {
-    gdjs.BattleCode.GDGoblinObjects2[i].setAnimationName("Death");
+}{for(var i = 0, len = gdjs.BattleCode.GDMoveSpot2Objects3.length ;i < len;++i) {
+    gdjs.BattleCode.GDMoveSpot2Objects3[i].deleteFromScene(runtimeScene);
 }
-for(var i = 0, len = gdjs.BattleCode.GDWizardObjects2.length ;i < len;++i) {
-    gdjs.BattleCode.GDWizardObjects2[i].setAnimationName("Death");
-}
-}{for(var i = 0, len = gdjs.BattleCode.GDWizRangeObjects2.length ;i < len;++i) {
-    gdjs.BattleCode.GDWizRangeObjects2[i].deleteFromScene(runtimeScene);
-}
-}{for(var i = 0, len = gdjs.BattleCode.GDMoveSpot2Objects2.length ;i < len;++i) {
-    gdjs.BattleCode.GDMoveSpot2Objects2[i].deleteFromScene(runtimeScene);
+}{for(var i = 0, len = gdjs.BattleCode.GDWizardObjects3.length ;i < len;++i) {
+    gdjs.BattleCode.GDWizardObjects3[i].setAnimationName("Death");
 }
 }{gdjs.evtTools.sound.playSound(runtimeScene, "mixkit-enemy-death-voice-3168.wav", false, gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(7)), 1);
-}{for(var i = 0, len = gdjs.BattleCode.GDWizardObjects2.length ;i < len;++i) {
-    gdjs.BattleCode.GDWizardObjects2[i].deleteFromScene(runtimeScene);
-}
 }
 { //Subevents: 
 gdjs.BattleCode.eventsList51(runtimeScene);} //Subevents end.
 }
 }
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("Wizard"), gdjs.BattleCode.GDWizardObjects1);
+
+gdjs.BattleCode.condition0IsTrue_0.val = false;
+gdjs.BattleCode.condition1IsTrue_0.val = false;
+{
+for(var i = 0, k = 0, l = gdjs.BattleCode.GDWizardObjects1.length;i<l;++i) {
+    if ( gdjs.BattleCode.GDWizardObjects1[i].isCurrentAnimationName("Death") ) {
+        gdjs.BattleCode.condition0IsTrue_0.val = true;
+        gdjs.BattleCode.GDWizardObjects1[k] = gdjs.BattleCode.GDWizardObjects1[i];
+        ++k;
+    }
+}
+gdjs.BattleCode.GDWizardObjects1.length = k;}if ( gdjs.BattleCode.condition0IsTrue_0.val ) {
+{
+for(var i = 0, k = 0, l = gdjs.BattleCode.GDWizardObjects1.length;i<l;++i) {
+    if ( gdjs.BattleCode.GDWizardObjects1[i].hasAnimationEnded() ) {
+        gdjs.BattleCode.condition1IsTrue_0.val = true;
+        gdjs.BattleCode.GDWizardObjects1[k] = gdjs.BattleCode.GDWizardObjects1[i];
+        ++k;
+    }
+}
+gdjs.BattleCode.GDWizardObjects1.length = k;}}
+if (gdjs.BattleCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.BattleCode.GDWizardObjects1 */
+{for(var i = 0, len = gdjs.BattleCode.GDWizardObjects1.length ;i < len;++i) {
+    gdjs.BattleCode.GDWizardObjects1[i].deleteFromScene(runtimeScene);
+}
+}}
 
 }
 
