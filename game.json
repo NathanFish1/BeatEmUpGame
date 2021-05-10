@@ -3282,6 +3282,15 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-31.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -19612,7 +19621,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "NewObject-1-27.png",
+                      "image": "NewObject-1-31.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -20443,7 +20452,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20454,7 +20463,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Player Set Up",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -21933,7 +21942,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Player Not Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -22654,7 +22663,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Player Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -24493,7 +24502,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Goblin",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29254,7 +29263,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Fireball",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29751,7 +29760,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
