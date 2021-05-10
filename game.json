@@ -4484,7 +4484,7 @@
           "directions": [
             {
               "looping": false,
-              "timeBetweenFrames": 0.11110000312328339,
+              "timeBetweenFrames": 0.10000000149011612,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -9127,7 +9127,7 @@
               "parameters": [
                 "MusicVolume",
                 "=",
-                "0"
+                "20"
               ],
               "subInstructions": []
             },
@@ -9139,7 +9139,7 @@
               "parameters": [
                 "SFXVolume",
                 "=",
-                "0"
+                "20"
               ],
               "subInstructions": []
             },
@@ -9151,7 +9151,7 @@
               "parameters": [
                 "DialogueVolume",
                 "=",
-                "0"
+                "20"
               ],
               "subInstructions": []
             },
@@ -10947,13 +10947,13 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
+                        "inverted": false,
                         "value": "VarGlobal"
                       },
                       "parameters": [
                         "SFXVolume",
-                        "=",
-                        "0"
+                        ">",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -11138,13 +11138,13 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
+                        "inverted": false,
                         "value": "VarGlobal"
                       },
                       "parameters": [
                         "SFXVolume",
-                        "=",
-                        "0"
+                        ">",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -11337,13 +11337,13 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
+                        "inverted": false,
                         "value": "VarGlobal"
                       },
                       "parameters": [
                         "SFXVolume",
-                        "=",
-                        "0"
+                        ">",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -11468,13 +11468,13 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
+                        "inverted": false,
                         "value": "VarGlobal"
                       },
                       "parameters": [
                         "SFXVolume",
-                        "=",
-                        "0"
+                        ">",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -11744,13 +11744,13 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
+                        "inverted": false,
                         "value": "VarGlobal"
                       },
                       "parameters": [
                         "SFXVolume",
-                        "=",
-                        "0"
+                        ">",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -12022,13 +12022,13 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
+                        "inverted": false,
                         "value": "VarGlobal"
                       },
                       "parameters": [
                         "SFXVolume",
-                        "=",
-                        "0"
+                        ">",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -12207,13 +12207,13 @@
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
+                        "inverted": false,
                         "value": "VarGlobal"
                       },
                       "parameters": [
                         "SFXVolume",
-                        "=",
-                        "0"
+                        ">",
+                        "5"
                       ],
                       "subInstructions": []
                     }
@@ -12247,7 +12247,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Music",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12264,6 +12264,18 @@
                   },
                   "parameters": [
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MusicVolume",
+                    ">",
+                    "5"
                   ],
                   "subInstructions": []
                 }
@@ -12830,7 +12842,7 @@
           "width": 0,
           "x": 358,
           "y": 243,
-          "zOrder": 108,
+          "zOrder": 1000,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12839,14 +12851,14 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "GUI",
           "locked": false,
           "name": "Completed",
           "persistentUuid": "2855b7e2-4a3d-4382-8ba4-556057ce5cc6",
           "width": 0,
           "x": 531,
           "y": 287,
-          "zOrder": 109,
+          "zOrder": 1000,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12863,6 +12875,22 @@
           "x": 3612,
           "y": 522,
           "zOrder": 110,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "GUI",
+          "locked": false,
+          "name": "test",
+          "persistentUuid": "52a99ba1-ade8-49ab-a510-90668a66c4b8",
+          "width": 0,
+          "x": 969,
+          "y": 458,
+          "zOrder": 1001,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -19692,6 +19720,25 @@
             "debugMode": false,
             "texture": ""
           }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "test",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "0",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 255
+          }
         }
       ],
       "events": [
@@ -19765,16 +19812,6 @@
                   },
                   "parameters": [
                     "Spawn"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "DeathNote"
                   ],
                   "subInstructions": []
                 },
@@ -20406,7 +20443,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20417,7 +20454,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Player Set Up",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -20759,23 +20796,54 @@
                         ""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "miscellaneous_8_meghan.wav",
-                        "",
-                        "GlobalVariable(DialogueVolume)",
-                        "1"
-                      ],
-                      "subInstructions": []
                     }
                   ],
-                  "events": []
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "DialogueVolume",
+                            ">",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "miscellaneous_8_meghan.wav",
+                            "",
+                            "GlobalVariable(DialogueVolume)",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 },
                 {
                   "disabled": false,
@@ -21178,23 +21246,54 @@
                         "\"Idle\""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "death_7_meghan.wav",
-                        "",
-                        "GlobalVariable(DialogueVolume)",
-                        "1"
-                      ],
-                      "subInstructions": []
                     }
                   ],
-                  "events": []
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "DialogueVolume",
+                            ">",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "death_7_meghan.wav",
+                            "",
+                            "GlobalVariable(DialogueVolume)",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 },
                 {
                   "disabled": false,
@@ -21834,7 +21933,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Player Not Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -22050,20 +22149,6 @@
                             "\"Jump\""
                           ],
                           "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "386043__taramg__jumpgroan002.wav",
-                            "",
-                            "GlobalVariable(SFXVolume)",
-                            "1"
-                          ],
-                          "subInstructions": []
                         }
                       ],
                       "events": [
@@ -22131,6 +22216,50 @@
                                 "-70",
                                 "",
                                 ""
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        },
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "DialogueVolume",
+                                ">",
+                                "5"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "386043__taramg__jumpgroan002.wav",
+                                "",
+                                "GlobalVariable(DialogueVolume)",
+                                "1"
                               ],
                               "subInstructions": []
                             }
@@ -22345,7 +22474,7 @@
                         "value": "AnimationName"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         "\"EnemyAttack\""
                       ],
                       "subInstructions": []
@@ -22356,7 +22485,7 @@
                         "value": "Sprite"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         ">",
                         "4"
                       ],
@@ -22368,7 +22497,7 @@
                         "value": "Sprite"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         "<",
                         "9"
                       ],
@@ -22425,7 +22554,7 @@
                         "value": "AnimationName"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         "\"EnemyAttack\""
                       ],
                       "subInstructions": []
@@ -22436,7 +22565,7 @@
                         "value": "Sprite"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         ">",
                         "8"
                       ],
@@ -22493,7 +22622,7 @@
                         "value": "AnimationName"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         "\"EnemyAttack\""
                       ],
                       "subInstructions": []
@@ -22525,7 +22654,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": true,
+              "folded": false,
               "name": "Player Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -22668,23 +22797,53 @@
                         "0"
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "52458__audione__sword-01.wav",
-                        "",
-                        "GlobalVariable(SFXVolume)",
-                        "0.5"
-                      ],
-                      "subInstructions": []
                     }
                   ],
                   "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "SFXVolume",
+                            ">",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "52458__audione__sword-01.wav",
+                            "",
+                            "GlobalVariable(SFXVolume)",
+                            "0.5"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
                     {
                       "disabled": false,
                       "folded": false,
@@ -22872,7 +23031,7 @@
                               },
                               "parameters": [
                                 "HitBox",
-                                "Enemies",
+                                "Goblin",
                                 "",
                                 "",
                                 ""
@@ -22888,7 +23047,7 @@
                           },
                           "parameters": [
                             "HitBox",
-                            "Enemies",
+                            "Goblin",
                             "",
                             "",
                             ""
@@ -22935,7 +23094,7 @@
                         "value": "AnimationName"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         "\"Death\""
                       ],
                       "subInstructions": []
@@ -22958,7 +23117,7 @@
                         "value": "VarObjet"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         "KnockbackState",
                         "!=",
                         "1"
@@ -22981,7 +23140,7 @@
                         "value": "Health::Health::Hit"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         "Health",
                         "GlobalVariable(Player.Damage)",
                         ""
@@ -22996,8 +23155,8 @@
                       "parameters": [
                         "",
                         "DamageNum",
-                        "Enemies.PointX(\"DamageNum\")+ RandomInRange(-20,20)",
-                        "Enemies.PointY(\"DamageNum\")+ RandomInRange(-20,20)",
+                        "Goblin.PointX(\"DamageNum\")+ RandomInRange(-20,20)",
+                        "Goblin.PointY(\"DamageNum\")+ RandomInRange(-20,20)",
                         ""
                       ],
                       "subInstructions": []
@@ -23021,7 +23180,7 @@
                       },
                       "parameters": [
                         "",
-                        "Enemies",
+                        "Goblin",
                         "DamageNum"
                       ],
                       "subInstructions": []
@@ -23044,7 +23203,7 @@
                         "value": "SetAnimationName"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         "\"Hit\""
                       ],
                       "subInstructions": []
@@ -23055,7 +23214,7 @@
                         "value": "ResetObjectTimer"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         "\"Knockback\""
                       ],
                       "subInstructions": []
@@ -23066,7 +23225,7 @@
                         "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
                         "KnockbackState",
                         "=",
                         "1"
@@ -23079,7 +23238,274 @@
                         "value": "Opacity"
                       },
                       "parameters": [
-                        "Enemies",
+                        "Goblin",
+                        "=",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "Player.LifeSteal",
+                            "=",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "Health::Health::Heal"
+                          },
+                          "parameters": [
+                            "Player",
+                            "Health",
+                            "GlobalVariable(Player.Damage) * 0.10",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "ChangeWidth"
+                          },
+                          "parameters": [
+                            "Health",
+                            "=",
+                            "Player.Health::Health()"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "HitBox",
+                            "Wizard",
+                            "",
+                            "",
+                            ""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "Player",
+                            "\"Attack1\""
+                          ],
+                          "subInstructions": []
+                        }
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Sprite"
+                      },
+                      "parameters": [
+                        "Player",
+                        ">",
+                        "6"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "\"Death\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Health::Health::IsDead"
+                      },
+                      "parameters": [
+                        "Player",
+                        "Health",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "KnockbackState",
+                        "!=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Health::Health::Hit"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "Health",
+                        "GlobalVariable(Player.Damage)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "DamageNum",
+                        "Wizard.PointX(\"DamageNum\")+ RandomInRange(-20,20)",
+                        "Wizard.PointY(\"DamageNum\")+ RandomInRange(-20,20)",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "DamageNum",
+                        "=",
+                        "GlobalVariableString(Player.Damage)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "LinkedObjects::LinkObjects"
+                      },
+                      "parameters": [
+                        "",
+                        "Wizard",
+                        "DamageNum"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "DamageNum",
+                        "=",
+                        "2000"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "\"Hit\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "\"Knockback\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "KnockbackState",
+                        "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "Wizard",
                         "=",
                         "100"
                       ],
@@ -24140,7 +24566,7 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::ForEach",
-              "object": "Enemies",
+              "object": "Goblin",
               "conditions": [
                 {
                   "type": {
@@ -24708,7 +25134,7 @@
                   "parameters": [
                     "",
                     "EnemyHitBox",
-                    "Enemies"
+                    "Goblin"
                   ],
                   "subInstructions": []
                 },
@@ -25451,23 +25877,54 @@
                         "\"Attack\""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "mixkit-small-monster-growl-1968.wav",
-                        "",
-                        "GlobalVariable(SFXVolume)",
-                        "1"
-                      ],
-                      "subInstructions": []
                     }
                   ],
-                  "events": []
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "SFXVolume",
+                            ">",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "mixkit-small-monster-growl-1968.wav",
+                            "",
+                            "GlobalVariable(SFXVolume)",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 }
               ]
             },
@@ -25606,7 +26063,7 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Enemies",
+                  "object": "Goblin",
                   "conditions": [
                     {
                       "type": {
@@ -25616,7 +26073,7 @@
                       "parameters": [
                         "",
                         "EnemyHitBox",
-                        "Enemies"
+                        "Goblin"
                       ],
                       "subInstructions": []
                     },
@@ -25728,7 +26185,7 @@
                       "parameters": [
                         "TotalDamage",
                         "=",
-                        "(Enemies.Variable(Damage) - (Enemies.Variable(Damage) *(GlobalVariable(Player.Armour)/100))) * Player.Variable(EnemiesClose)"
+                        "(Goblin.Variable(Damage) - (Goblin.Variable(Damage) *(GlobalVariable(Player.Armour)/100))) * Player.Variable(EnemiesClose)"
                       ],
                       "subInstructions": []
                     },
@@ -25829,23 +26286,54 @@
                         "DamageNum"
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "damage_2_meghan.wav",
-                        "",
-                        "GlobalVariable(SFXVolume)",
-                        "1"
-                      ],
-                      "subInstructions": []
                     }
                   ],
-                  "events": []
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "SFXVolume",
+                            ">",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "damage_2_meghan.wav",
+                            "",
+                            "GlobalVariable(SFXVolume)",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 }
               ]
             },
@@ -26007,7 +26495,7 @@
                     "value": "Health::Health::IsDead"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Goblin",
                     "Health",
                     ""
                   ],
@@ -26127,7 +26615,7 @@
                     "value": "Arreter"
                   },
                   "parameters": [
-                    "Enemies"
+                    "Goblin"
                   ],
                   "subInstructions": []
                 },
@@ -26137,7 +26625,7 @@
                     "value": "SetAnimationName"
                   },
                   "parameters": [
-                    "Enemies",
+                    "Goblin",
                     "\"Death\""
                   ],
                   "subInstructions": []
@@ -26161,20 +26649,6 @@
                   "parameters": [
                     "MoveSpot",
                     ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "mixkit-enemy-death-voice-3168.wav",
-                    "",
-                    "GlobalVariable(DialogueVolume)",
-                    "1"
                   ],
                   "subInstructions": []
                 }
@@ -26204,6 +26678,50 @@
                         "Score",
                         "+",
                         "50"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "DialogueVolume",
+                        ">",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "mixkit-enemy-death-voice-3168.wav",
+                        "",
+                        "GlobalVariable(DialogueVolume)",
+                        "1"
                       ],
                       "subInstructions": []
                     }
@@ -26263,7 +26781,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Wizard",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26859,7 +27377,7 @@
                           "parameters": [
                             "Wizard",
                             "MoveSpot2",
-                            "70",
+                            "50",
                             ""
                           ],
                           "subInstructions": []
@@ -27022,7 +27540,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "Attack",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -27284,6 +27802,18 @@
                               },
                               "parameters": [],
                               "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SFXVolume",
+                                ">",
+                                "5"
+                              ],
+                              "subInstructions": []
                             }
                           ],
                           "actions": [
@@ -27378,6 +27908,18 @@
                                 "value": "BuiltinCommonInstructions::Once"
                               },
                               "parameters": [],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SFXVolume",
+                                ">",
+                                "5"
+                              ],
                               "subInstructions": []
                             }
                           ],
@@ -27549,6 +28091,17 @@
                         "\"AttackClose\""
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ResetObjectTimer"
+                      },
+                      "parameters": [
+                        "AttackNotification",
+                        "\"Note\""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -27653,6 +28206,18 @@
                             "value": "BuiltinCommonInstructions::Once"
                           },
                           "parameters": [],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "SFXVolume",
+                            ">",
+                            "5"
+                          ],
                           "subInstructions": []
                         }
                       ],
@@ -27855,26 +28420,18 @@
                 {
                   "disabled": false,
                   "folded": false,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [],
-                  "events": []
-                },
-                {
-                  "disabled": false,
-                  "folded": false,
                   "type": "BuiltinCommonInstructions::ForEach",
                   "object": "AttackNotification",
                   "conditions": [
                     {
                       "type": {
-                        "inverted": true,
-                        "value": "LinkedObjects::PickObjectsLinkedTo"
+                        "inverted": false,
+                        "value": "ObjectTimer"
                       },
                       "parameters": [
-                        "",
                         "AttackNotification",
-                        "Wizard"
+                        "\"Note\"",
+                        "1.5"
                       ],
                       "subInstructions": []
                     }
@@ -27903,7 +28460,7 @@
               "colorR": 74,
               "creationTime": 0,
               "disabled": false,
-              "folded": false,
+              "folded": true,
               "name": "States",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -28222,20 +28779,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "damage_2_meghan.wav",
-                            "",
-                            "GlobalVariable(SFXVolume)",
-                            "1"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "SetAnimationName"
                           },
                           "parameters": [
@@ -28256,7 +28799,52 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SFXVolume",
+                                ">",
+                                "5"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "damage_2_meghan.wav",
+                                "",
+                                "GlobalVariable(SFXVolume)",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     },
                     {
                       "disabled": false,
@@ -28365,20 +28953,6 @@
                         {
                           "type": {
                             "inverted": false,
-                            "value": "PlaySound"
-                          },
-                          "parameters": [
-                            "",
-                            "damage_2_meghan.wav",
-                            "",
-                            "GlobalVariable(SFXVolume)",
-                            "1"
-                          ],
-                          "subInstructions": []
-                        },
-                        {
-                          "type": {
-                            "inverted": false,
                             "value": "SetAnimationName"
                           },
                           "parameters": [
@@ -28399,7 +28973,52 @@
                           "subInstructions": []
                         }
                       ],
-                      "events": []
+                      "events": [
+                        {
+                          "disabled": false,
+                          "folded": false,
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "VarGlobal"
+                              },
+                              "parameters": [
+                                "SFXVolume",
+                                ">",
+                                "5"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": [],
+                              "subInstructions": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "PlaySound"
+                              },
+                              "parameters": [
+                                "",
+                                "damage_2_meghan.wav",
+                                "",
+                                "GlobalVariable(SFXVolume)",
+                                "1"
+                              ],
+                              "subInstructions": []
+                            }
+                          ],
+                          "events": []
+                        }
+                      ]
                     }
                   ]
                 },
@@ -28407,7 +29026,7 @@
                   "disabled": false,
                   "folded": false,
                   "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Enemies",
+                  "object": "Wizard",
                   "conditions": [
                     {
                       "type": {
@@ -28489,20 +29108,6 @@
                         "\"Death\""
                       ],
                       "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "mixkit-enemy-death-voice-3168.wav",
-                        "",
-                        "GlobalVariable(DialogueVolume)",
-                        "1"
-                      ],
-                      "subInstructions": []
                     }
                   ],
                   "events": [
@@ -28530,6 +29135,50 @@
                             "Score",
                             "+",
                             "100"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    },
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "DialogueVolume",
+                            ">",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "mixkit-enemy-death-voice-3168.wav",
+                            "",
+                            "GlobalVariable(DialogueVolume)",
+                            "1"
                           ],
                           "subInstructions": []
                         }
@@ -28569,6 +29218,19 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Wizard",
+                        "AttackState",
+                        "=",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "Delete"
                       },
                       "parameters": [
@@ -28592,7 +29254,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Fireball",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28971,20 +29633,6 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "damage_2_meghan.wav",
-                    "",
-                    "GlobalVariable(SFXVolume)",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
                     "value": "SetAnimationName"
                   },
                   "parameters": [
@@ -29005,7 +29653,52 @@
                   "subInstructions": []
                 }
               ],
-              "events": []
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": [],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarGlobal"
+                      },
+                      "parameters": [
+                        "SFXVolume",
+                        ">",
+                        "5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "damage_2_meghan.wav",
+                        "",
+                        "GlobalVariable(SFXVolume)",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
             },
             {
               "disabled": false,
@@ -29058,7 +29751,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Game",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -29136,6 +29829,18 @@
                     "Score",
                     "=",
                     "\"Score: \" + GlobalVariableString(Score)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "test",
+                    "=",
+                    "Player.VariableString(EnemiesClose)"
                   ],
                   "subInstructions": []
                 },
@@ -29858,16 +30563,6 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "EnemyHitBox"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
                                 "value": "Create"
                               },
                               "parameters": [
@@ -29898,6 +30593,16 @@
                               },
                               "parameters": [
                                 "MoveSpot"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "EnemyHitBox"
                               ],
                               "subInstructions": []
                             }
@@ -30257,16 +30962,6 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "EnemyHitBox"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
                                 "value": "Create"
                               },
                               "parameters": [
@@ -30297,6 +30992,16 @@
                               },
                               "parameters": [
                                 "MoveSpot"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "EnemyHitBox"
                               ],
                               "subInstructions": []
                             }
@@ -30656,16 +31361,6 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "EnemyHitBox"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
                                 "value": "Create"
                               },
                               "parameters": [
@@ -30696,6 +31391,16 @@
                               },
                               "parameters": [
                                 "MoveSpot"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "EnemyHitBox"
                               ],
                               "subInstructions": []
                             }
@@ -31055,16 +31760,6 @@
                             {
                               "type": {
                                 "inverted": false,
-                                "value": "Cache"
-                              },
-                              "parameters": [
-                                "EnemyHitBox"
-                              ],
-                              "subInstructions": []
-                            },
-                            {
-                              "type": {
-                                "inverted": false,
                                 "value": "Create"
                               },
                               "parameters": [
@@ -31095,6 +31790,16 @@
                               },
                               "parameters": [
                                 "MoveSpot"
+                              ],
+                              "subInstructions": []
+                            },
+                            {
+                              "type": {
+                                "inverted": false,
+                                "value": "Cache"
+                              },
+                              "parameters": [
+                                "EnemyHitBox"
                               ],
                               "subInstructions": []
                             }
@@ -31553,28 +32258,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "Create"
+                        "value": "Montre"
                       },
                       "parameters": [
-                        "",
                         "Completed",
-                        "Player.PointX(\"Text\") - 100",
-                        "Player.PointY(\"Text\")",
-                        "\"GUI\""
-                      ],
-                      "subInstructions": []
-                    },
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "mixkit-completion-of-a-level-2063.wav",
-                        "",
-                        "GlobalVariable(SFXVolume)",
-                        "1"
+                        ""
                       ],
                       "subInstructions": []
                     },
@@ -31621,7 +32309,52 @@
                       "subInstructions": []
                     }
                   ],
-                  "events": []
+                  "events": [
+                    {
+                      "disabled": false,
+                      "folded": false,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": [],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "VarGlobal"
+                          },
+                          "parameters": [
+                            "SFXVolume",
+                            ">",
+                            "5"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "mixkit-completion-of-a-level-2063.wav",
+                            "",
+                            "GlobalVariable(SFXVolume)",
+                            "1"
+                          ],
+                          "subInstructions": []
+                        }
+                      ],
+                      "events": []
+                    }
+                  ]
                 },
                 {
                   "disabled": false,
@@ -32442,7 +33175,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Music",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -32459,6 +33192,18 @@
                   },
                   "parameters": [
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MusicVolume",
+                    ">",
+                    "5"
                   ],
                   "subInstructions": []
                 }
@@ -35416,6 +36161,18 @@
                   },
                   "parameters": [
                     ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MusicVolume",
+                    ">",
+                    "5"
                   ],
                   "subInstructions": []
                 }
@@ -40725,6 +41482,18 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarGlobal"
+                  },
+                  "parameters": [
+                    "MusicVolume",
+                    ">",
+                    "5"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -40999,72 +41768,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Mute",
-          "persistentUuid": "b30eab28-25a9-4a30-a96e-dab7ad13563d",
-          "width": 0,
-          "x": 1049,
-          "y": 234,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "id",
-              "type": "string",
-              "value": "1"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Mute",
-          "persistentUuid": "a8a416e4-ff87-4224-b7c5-adc29e751e60",
-          "width": 0,
-          "x": 1048,
-          "y": 372,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "id",
-              "type": "string",
-              "value": "2"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "Mute",
-          "persistentUuid": "73e7f9b0-666a-46ff-a4d3-acda5c6a13a2",
-          "width": 0,
-          "x": 1045,
-          "y": 516,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "name": "id",
-              "type": "string",
-              "value": "3"
-            }
-          ]
         }
       ],
       "objects": [
@@ -41263,44 +41966,6 @@
               "Value": 0,
               "ThumbOffset": 0,
               "RoundedTrack": true
-            }
-          ],
-          "fillOpacity": 255,
-          "outlineSize": 1,
-          "outlineOpacity": 255,
-          "fillColor": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "outlineColor": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          },
-          "absoluteCoordinates": false,
-          "clearBetweenFrames": true
-        },
-        {
-          "name": "Mute",
-          "tags": "",
-          "type": "PrimitiveDrawing::Drawer",
-          "variables": [],
-          "behaviors": [
-            {
-              "name": "Checkbox",
-              "type": "Checkbox::Checkbox",
-              "Checked": false,
-              "PrimaryColor": "24;119;211",
-              "SecondaryColor": "255;255;255",
-              "SideLength": 24,
-              "LineWidth": 5,
-              "HaloRadius": 0,
-              "ToggleChanged": false,
-              "Disabled": false,
-              "BorderThickness": 2,
-              "HaloOpacityHover": 64,
-              "HaloOpacityPressed": 96
             }
           ],
           "fillOpacity": 255,
@@ -41725,249 +42390,6 @@
               "parameters": [
                 "",
                 "2"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "VolumeControl",
-                "id",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Mute",
-                "id",
-                "=",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Checkbox::Checkbox::IsChecked"
-              },
-              "parameters": [
-                "Mute",
-                "Checkbox",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "MusicVolume",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-              },
-              "parameters": [
-                "VolumeControl",
-                "DraggableSliderControl",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "VolumeControl",
-                "id",
-                "=",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Mute",
-                "id",
-                "=",
-                "2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Checkbox::Checkbox::IsChecked"
-              },
-              "parameters": [
-                "Mute",
-                "Checkbox",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "SFXVolume",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-              },
-              "parameters": [
-                "VolumeControl",
-                "DraggableSliderControl",
-                "0",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "VolumeControl",
-                "id",
-                "=",
-                "3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "VarObjet"
-              },
-              "parameters": [
-                "Mute",
-                "id",
-                "=",
-                "3"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Checkbox::Checkbox::IsChecked"
-              },
-              "parameters": [
-                "Mute",
-                "Checkbox",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": [],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "DialogueVolume",
-                "=",
-                "0"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "DraggableSliderControl::DraggableSliderControl::SetValue"
-              },
-              "parameters": [
-                "VolumeControl",
-                "DraggableSliderControl",
-                "0",
-                ""
               ],
               "subInstructions": []
             }
